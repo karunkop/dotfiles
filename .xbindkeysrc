@@ -1,0 +1,62 @@
+# List of modifiers:
+#   Release, Control, Shift, Mod1 (Alt), Mod2 (NumLock),
+#   Mod3 (CapsLock), Mod4, Mod5 (Scroll).
+
+# Show main menu
+"jgmenu_run"
+    Mod4 + space
+
+# Tilix
+"tilix"
+    Mod4 + t
+
+# Web Browser
+"x-www-browser"
+    Mod4 + w
+
+# File Manager
+"bl-file-manager"
+    Mod4 + f
+
+# Editor
+"tilix -x nvim"
+    Mod4 + e
+
+# Volume
+"pavucontrol"
+    Mod4 + v
+
+# Exit
+"bl-exit"
+    Mod4 + l
+
+# To identify a key, you can run 'xbindkeys --key' or
+# 'xbindkeys --multikey' in a terminal
+# and put one of the two output lines in this file.
+
+# Mod4 is also known as the Super or Windows key.
+#
+# The release modifier is not a standard X modifier, but you can
+# use it if you want to catch release events instead of press events.
+#
+# By default, xbindkeys does not pay attention to the modifiers
+# NumLock, CapsLock and ScrollLock.
+# Uncomment the lines below if you want to pay attention to them.
+#
+#keystate_numlock = enable
+#keystate_capslock = enable
+#keystate_scrolllock= enable
+
+# NOTE xbindkeys reloads its configuration file each time it has changed.
+# If you want to force it to reload its configuration file,
+# you can send a HUP signal:
+#       killall -HUP xbindkeys
+
+# Or if that's not enough, a full restart:
+#       pkill -x xbindkeys
+#       xbindkeys_autostart
+
+# (Sometimes this is needed.)
+# When a HUP signal is sent to xbindkeys,
+# changes in $HOME/.xbindkeysrc take effect only after moving the mouse.
+
