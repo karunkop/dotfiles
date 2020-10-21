@@ -7,6 +7,7 @@ alias lla="ls -la"
 alias vim="nvim"
 # zshrc
 alias src="source ~/.zshrc"
+alias srcedit="vim ~/.zshrc"
 # git alias
 alias gst="git status"
 alias ga="git add "
