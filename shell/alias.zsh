@@ -11,6 +11,7 @@ alias srcedit="vim ~/.zshrc"
 # git alias
 alias gst="git status"
 alias ga="git add "
+alias gb="git branch"
 alias gaa="git add ."
 alias gcmsg="git commit -m"
 alias gcmsga="git commit -am"
