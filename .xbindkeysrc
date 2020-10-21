@@ -30,6 +30,9 @@
 "bl-exit"
     Mod4 + l
 
+"screenshot.sh"
+	Mod4 + s
+
 # To identify a key, you can run 'xbindkeys --key' or
 # 'xbindkeys --multikey' in a terminal
 # and put one of the two output lines in this file.
