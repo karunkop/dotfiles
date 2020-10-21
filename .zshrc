@@ -26,6 +26,12 @@ fpath+=$HOME/shell/typewritten
 autoload -U promptinit; promptinit
 prompt typewritten
 # --------------------------------------------------------
+# take
+take () {
+  mkdir "$1"
+  cd "$1"
+}
+# --------------------------------------------------------
 # alias and exports
 source "$HOME/shell/alias.zsh"
 source "$HOME/shell/exports.zsh"
