@@ -1,0 +1,1 @@
+conky -c /home/prabhat/.config/conky/conky.conf & sleep 1
