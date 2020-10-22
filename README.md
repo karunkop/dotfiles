@@ -12,3 +12,4 @@ Programs to install
 		- pycom
 	- vim
 		- bat
+		- ripgrep

@@ -1,0 +1,1 @@
+tmux new-session -s kalysys -nclient -c ~/Documents/code/kalysys/client \; attach-session -c ~/ \; new-window -nserver -c ~/Documents/code/kalysys/server \; new-window -nconsole -c ~/Documents/code/kalysys/client \; split-window -h -c ~/Documents/code/kalysys/server \; new-window -nscratch -c ~/Documents/code/kalysys/ \; select-window -t 1 \;
