@@ -12,11 +12,11 @@
 /* end of stepper code */
 
 /* padding for lxterminal and some others */
+    
 VteTerminal,
 TerminalScreen,
 vte-terminal {
+    /* padding: 10px; */ 
     padding: 25px 30px 0px 30px;
     -VteTerminal-inner-border: 25px 30px 0px 30px;
 }
-
-
