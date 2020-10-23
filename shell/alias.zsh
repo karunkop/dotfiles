@@ -2,9 +2,15 @@
 alias greet="echo hello"
 # basic command
 alias q="exit"
-alias la="ls -a"
-alias lla="ls -la"
+alias la="ls -A"
+alias lla="ls -lA"
 alias vim="nvim"
+alias fmgr="bl-file-manager"
+# colorls
+alias lc="colorls --gs"
+alias lca="colorls --gs -A"
+alias lcd="colorls --gs -d"
+alias lcf="colorls --gs -f"
 # zshrc
 alias src="source ~/.zshrc"
 alias srcedit="vim ~/.zshrc"
@@ -24,4 +30,7 @@ alias glgo='git log --oneline'
 # tmux
 alias tml="tmux list-sessions"
 alias tmn="tmux new-session -s 'default' -n 'default'"
-
+# node
+alias ni="npm install"
+alias ns="npm start"
+alias no="nodemon"
