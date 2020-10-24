@@ -32,9 +32,6 @@ call plug#begin()
     " Alignment of text, tables, etc.
     Plug 'junegunn/vim-easy-align'
 
-    " Snippets
-    " Plug 'honza/vim-snippets'
-
     " Themes
     Plug 'morhetz/gruvbox'
     Plug 'sainnhe/gruvbox-material'
