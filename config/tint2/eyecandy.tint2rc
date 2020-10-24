@@ -11,8 +11,8 @@ border_width = 4
 border_sides = TBLR
 border_content_tint_weight = 0
 background_content_tint_weight = 0
-background_color = #3b4252 100
-border_color = #3b4252 100
+background_color = #3b4252 0
+border_color = #3b4252 0
 background_color_hover = #000000 0
 border_color_hover = #000000 0
 background_color_pressed = #000000 0
@@ -176,7 +176,7 @@ border_color_pressed = #f9f9f9 94
 
 #-------------------------------------
 # Panel
-panel_items = :PPP:S:E:E:T:E:E:E:E:P:E:P:C:PPP:
+panel_items = :S:E:E:T:E:E:E:E:P:E:P:C:
 panel_size = 100% 30
 panel_margin = 0 0
 panel_padding = 0 0 0
@@ -327,7 +327,7 @@ separator = new
 separator_background_id = 0
 separator_color = #f9f9f9 0
 separator_style = empty
-separator_size = 6
+separator_size = 1
 separator_padding = 0 0
 
 #-------------------------------------
@@ -336,7 +336,7 @@ separator = new
 separator_background_id = 0
 separator_color = #f9f9f9 0
 separator_style = empty
-separator_size = 6
+separator_size = 0
 separator_padding = 0 0
 
 #-------------------------------------
@@ -609,57 +609,6 @@ execp_icon_w = 0
 execp_icon_h = 0
 
 #-------------------------------------
-# Button 1
-button = new
-button_text = 
-button_tooltip = Change current wallpaper │Synchronize SLiM background
-button_lclick_command = urxvt -e ~/.config/openbox/visual-mode/wally
-button_rclick_command = ~/.config/openbox/visual-mode/slimsync
-button_mclick_command = 
-button_uwheel_command = 
-button_dwheel_command = 
-button_font = Material Bold 10
-button_font_color = #434c5e 100
-button_padding = 5 0
-button_background_id = 13
-button_centered = 1
-button_max_icon_size = 0
-
-#-------------------------------------
-# Button 2
-button = new
-button_text = 
-button_tooltip = Enable/Disable Minimal Mode for current Visual Mode
-button_lclick_command = ~/.config/openbox/visual-mode/switcher minimal
-button_rclick_command = 
-button_mclick_command = 
-button_uwheel_command = 
-button_dwheel_command = 
-button_font = Material Bold 10
-button_font_color = #434c5e 100
-button_padding = 5 0
-button_background_id = 11
-button_centered = 1
-button_max_icon_size = 0
-
-#-------------------------------------
-# Button 3
-button = new
-button_text = 
-button_tooltip = Switch Visual Mode to Mechanical Theme or Eyecandy Theme
-button_lclick_command = ~/.config/openbox/visual-mode/switcher
-button_rclick_command = 
-button_mclick_command = 
-button_uwheel_command = 
-button_dwheel_command = 
-button_font = Material Bold 10
-button_font_color = #434c5e 100
-button_padding = 5 0
-button_background_id = 12
-button_centered = 1
-button_max_icon_size = 0
-
-#-------------------------------------
 # Button 4
 button = new
 button_text = 
@@ -693,56 +642,6 @@ button_background_id = 10
 button_centered = 1
 button_max_icon_size = 0
 
-#-------------------------------------
-# Button 6
-button = new
-button_text = 
-button_tooltip = 
-button_lclick_command = 
-button_rclick_command = 
-button_mclick_command = 
-button_uwheel_command = 
-button_dwheel_command = 
-button_font = Material Bold 10
-button_font_color = #434c5e 100
-button_padding = 5 0
-button_background_id = 12
-button_centered = 1
-button_max_icon_size = 0
-
-#-------------------------------------
-# Button 7
-button = new
-button_text = 
-button_tooltip = 
-button_lclick_command = 
-button_rclick_command = 
-button_mclick_command = 
-button_uwheel_command = 
-button_dwheel_command = 
-button_font = Material Bold 10
-button_font_color = #434c5e 100
-button_padding = 5 0
-button_background_id = 11
-button_centered = 1
-button_max_icon_size = 0
-
-#-------------------------------------
-# Button 8
-button = new
-button_text = 
-button_tooltip = 
-button_lclick_command = 
-button_rclick_command = 
-button_mclick_command = 
-button_uwheel_command = 
-button_dwheel_command = 
-button_font = Material Bold 10
-button_font_color = #434c5e 100
-button_padding = 5 0
-button_background_id = 13
-button_centered = 1
-button_max_icon_size = 0
 
 #-------------------------------------
 # Tooltip
