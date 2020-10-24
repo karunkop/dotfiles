@@ -34,3 +34,5 @@ alias tmn="tmux new-session -s 'default' -n 'default'"
 alias ni="npm install"
 alias ns="npm start"
 alias no="nodemon"
+# emulator
+alias momo="emulator @momo"
