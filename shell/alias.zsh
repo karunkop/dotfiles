@@ -36,3 +36,5 @@ alias ns="npm start"
 alias no="nodemon"
 # emulator
 alias momo="emulator @momo"
+# cli-typing
+alias type="~/bin/cli-typer-master/app.js"

@@ -32,6 +32,9 @@ take () {
   cd "$1"
 }
 # --------------------------------------------------------
+# python for nvim
+# g:python3_host_prog = 1
+# --------------------------------------------------------
 # alias and exports
 source "$HOME/shell/alias.zsh"
 source "$HOME/shell/exports.zsh"
