@@ -7,7 +7,7 @@ setopt appendhistory
 setopt share_history
 setopt autocd extendedglob nomatch notify
 # --------------------------------------------------------
-# comp
+# # comp
 zstyle :compinstall filename '/home/prabhat/.zshrc'
 autoload -Uz compinit
 compinit
@@ -18,7 +18,7 @@ zstyle ':completion:*' menu select
 # --------------------------------------------------------
 # nvm
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" --no-use  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 # --------------------------------------------------------
 # typewritten
@@ -36,5 +36,6 @@ take () {
 # g:python3_host_prog = 1
 # --------------------------------------------------------
 # alias and exports
-source "$HOME/shell/alias.zsh"
 source "$HOME/shell/exports.zsh"
+source "$HOME/.secret_exports.zsh"
+source "$HOME/shell/alias.zsh"

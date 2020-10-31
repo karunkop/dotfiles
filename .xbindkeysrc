@@ -11,11 +11,15 @@
     Mod4 + t
 
 # Web Browser
-"x-www-browser"
+"firefox -profile ~/.mozilla/firefox/mv4sllz5.default-esr"
     Mod4 + w
 
+"firefox -profile ~/.mozilla/firefox/mawpjdz8.default"
+    Mod4 + n
+
 # File Manager
-"bl-file-manager"
+#"bl-file-manager"
+"tilix -a app-new-window -x \"ranger\""
     Mod4 + f
 
 # Editor
@@ -30,7 +34,7 @@
 "bl-exit"
     Mod4 + l
 
-"screenshot.sh"
+"flameshot gui -p ~/Pictures/screenshots"
 	Mod4 + s
 
 # To identify a key, you can run 'xbindkeys --key' or
