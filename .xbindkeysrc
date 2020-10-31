@@ -32,7 +32,7 @@
 
 # Exit
 "bl-exit"
-    Mod4 + l
+    Mod4 + q
 
 "flameshot gui -p ~/Pictures/screenshots"
 	Mod4 + s
