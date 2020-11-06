@@ -1,24 +1,30 @@
 {
-    "diagnostic.warningSign": "!",
-    "diagnostic.errorSign": "✕",
-    "snippets.extends": {
-        "javascriptreact": ["javascript"]
-    },
-    "snippets.userSnippetsDirectory": "~/.config/nvim/snippets",
-    "coc.preferences.jumpCommand": "drop",
-    "explorer.file.showHiddenFiles": true,
-    "explorer.width": 46,
-    "explorer.icon.enableNerdfont": true,
-    "explorer.previewAction.onHover": false,
-    "explorer.keyMappings": {
-        "D": false,
-        "v": "pasteFile",
-        "e": false,
-        "p": "open",
-        "s": "open:vsplit",
-        "P": "open:split",
-        "gn": "collapse:recursive",
-        "gi": "expand:recursive",
-        "E": false
-    }
+  "eslint.enable": true,
+  "eslint.autoFixOnSave": true,
+  "diagnostic.warningSign": "!",
+  "diagnostic.errorSign": "✕",
+  "snippets.extends": {
+    "javascriptreact": ["javascript"]
+  },
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snippets",
+  "coc.preferences.jumpCommand": "drop",
+  "explorer.file.showHiddenFiles": true,
+  "explorer.width": 30,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.keyMappings": {
+    "D": false,
+    "v": "pasteFile",
+    "e": false,
+    "p": "open",
+    "s": "open:vsplit",
+    "P": "open:split",
+    "gn": "collapse:recursive",
+    "gi": "expand:recursive",
+    "E": false
+  },
+  "coc.preferences.formatOnSaveFiletypes": ["typescript"],
+  "prettier.tabWidth": 4,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all"
 }

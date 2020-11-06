@@ -37,12 +37,19 @@ nnoremap <Leader>gb :GBrowse<CR>
 nnoremap <Leader>gl :G blame<CR>
 
 " COC ---------------------------------------------------------
-nmap <silent> gdd :call CocAction('jumpDefinition', 'tab drop')<CR>
+nmap <silent> gdd :call CocAction('jumpDefinition', 'drop')<CR>
 nmap <silent> gdt :call CocAction('jumpDefinition', 'tabe')<CR>
 nmap <silent> gdv :call CocAction('jumpDefinition', 'vsplit')<CR>
 nmap <silent> gy  <Plug>(coc-type-definition)
 nmap <silent> gi  <Plug>(coc-implementation)
 nmap <silent> gr  <Plug>(coc-references)
+
+" Remap keys for applying codeAction to the current buffer.
+nmap <leader>ac  <Plug>(coc-codeaction)<CR>
+" Apply AutoFix to problem on the current line.
+nmap <leader>qf  <Plug>(coc-fix-current)<CR>
+" Apply eslint execute autofix
+nmap <leader>af  :CocCommand eslint.executeAutofix<CR>
 
 " Use tab for trigger completion
 inoremap <silent><expr> <TAB>
@@ -122,8 +129,10 @@ nmap ga <Plug>(EasyAlign)
 
 nnoremap ; :
 
-nnoremap J 5j
-nnoremap K 5k
+nnoremap <C-J> 5j
+xnoremap <C-J> 5j
+nnoremap <C-K> 5k
+xnoremap <C-K> 5k
 
 " insert line above and below
 nnoremap <leader>o o<ESC>
@@ -137,6 +146,8 @@ xnoremap <leader>r "+
 
 " align window to top of screen after G
 nnoremap G Gzt
+
+nnoremap <leader>z :set nowrap!<CR>
 
 "  void register for p 
 xnoremap <leader>p "_dP

@@ -52,7 +52,7 @@
       S: shade (roll up/down)
       D: omnipresent (on all desktops).
   -->
-    <keepBorder>yes</keepBorder>
+    <keepBorder>no</keepBorder>
     <animateIconify>no</animateIconify>
     <font place="ActiveWindow">
       <name>Sans</name>
@@ -166,7 +166,7 @@
     <noStrut>no</noStrut>
     <stacking>Above</stacking>
     <!-- 'Above', 'Normal', or 'Below' -->
-    <direction>Horizontal</direction>
+    <direction>Vertical</direction>
     <!-- 'Vertical' or 'Horizontal' -->
     <autoHide>no</autoHide>
     <hideDelay>300</hideDelay>
@@ -361,10 +361,10 @@
     <keybind key="W-Right">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
-        <width>45%</width>
-        <height>92%</height>
-        <x>-50</x>
-        <y>50</y>
+        <width>50%</width>
+        <height>100%</height>
+        <x>-0</x>
+        <y>0</y>
       </action>
     </keybind>
     <keybind key="W-Left">
@@ -392,15 +392,6 @@
         <height>50%</height>
         <x>0</x>
         <y>0</y>
-      </action>
-    </keybind>
-    <keybind key="W-0">
-      <action name="Unmaximize"/>
-      <action name="MoveResizeTo">
-        <width>95%</width>
-        <height>91%</height>
-        <x>50</x>
-        <y>50</y>
       </action>
     </keybind>
     <keybind key="W-A-Right">

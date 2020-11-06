@@ -32,6 +32,9 @@ call plug#begin()
     " Alignment of text, tables, etc.
     Plug 'junegunn/vim-easy-align'
 
+    " Snippets
+    " Plug 'honza/vim-snippets'
+
     " Themes
     Plug 'morhetz/gruvbox'
     Plug 'sainnhe/gruvbox-material'
@@ -46,21 +49,24 @@ call plug#begin()
     " Auto-close brackets
     Plug 'kitallen23/vim-autoclose'
 
+    " Rainbow brackets
+    Plug 'luochen1990/rainbow'
 
 call plug#end()
 
 syntax enable
 set number relativenumber       " Set line numbers to relative
-set mouse=a                    " Enable mouse support
+set mouse=a                     " Enable mouse support
 set showtabline=2               " Always show the buffer tab
 set cursorline                  " Highlight the line the cursor is on
 set noswapfile                  " Disable swap files
-set scrolloff=5                " Scroll the screen when cursor is x rows from the top / bottom
+set scrolloff=5                 " Scroll the screen when cursor is x rows from the top / bottom
 set signcolumn=yes              " Always show the gutter
 set hidden                      " Still trying to figure this out...
 set shortmess+=c
 set updatetime=200              " Reduce update time (better usability)
 set cmdheight=1                 " Increase the command prompt's height
+set nowrap                      " Don't wrap when line goes off window's width
 
 " Search
 set hlsearch                    " Highlight search results
@@ -144,6 +150,9 @@ let g:fugitive_no_maps=1
 
 " AutoClose [s]urround remap
 let g:AutoCloseSelectionWrapPrefix="<Leader>s"
+
+" Rainbow
+let g:rainbow_active = 1
 
 " Remaps
 :so ~/.config/nvim/remaps.vim

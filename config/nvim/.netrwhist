@@ -1,6 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/home/prabhat/.config/tilix'
-let g:netrw_dirhist_2='/home/prabhat/.config'
-let g:netrw_dirhist_3='/home/prabhat/.config/gtk-3.0'
-let g:netrw_dirhist_4='/home/prabhat/Documents/dotfiles/shell'
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/prabhat/Documents/code/kalysysv2/server/build'
+let g:netrw_dirhist_2='/home/prabhat/.zsh'
+let g:netrw_dirhist_1='/var/lib/mongodb'
