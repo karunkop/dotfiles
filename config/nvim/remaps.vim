@@ -22,15 +22,16 @@ let mapleader = " "
 " Open fuzzy find window
 nnoremap <silent> <C-p> :Files<CR>
 " Open file history
-nnoremap <silent> <C-h> :History<CR>
+" nnoremap <silent> <Leader>h :History<CR>
 " Show open windows
-nnoremap <silent> <C-t> :Windows<CR>
+" nnoremap <silent> <C-t> :Windows<CR>
 " Show buffers
-nnoremap <silent> <C-b> :Buffers<CR>
+" nnoremap <silent> <C-b> :Buffers<CR>
 " Open ripgrep window
 nnoremap <C-f> :Rg /
 
 " Fugitive maps -----------------------------------------------
+"
 nnoremap <Leader>gg :tab G<CR>
 nnoremap <Leader>gd :tab Gdiffsplit<CR>
 nnoremap <Leader>gb :GBrowse<CR>
@@ -149,5 +150,26 @@ nnoremap G Gzt
 
 nnoremap <leader>z :set nowrap!<CR>
 
-"  void register for p 
-xnoremap <leader>p "_dP
+" vim windows
+nnoremap <silent> <C-h> :WintabsPrev<CR>
+nnoremap <silent> <C-l> :WintabsNext<CR>
+nnoremap <silent> <C-q> :WintabsClose<CR>
+nnoremap <silent> <Leader>x :WintabsUndo<CR>
+nnoremap <silent> <Leader>wa :WintabsAllBuffers<CR>
+nnoremap <silent> <Leader>wo :WintabsOnly<CR>
+
+" Move buffer tabs left / right
+nnoremap <silent> <Leader>wm :WintabsMove 1<CR>
+nnoremap <silent> <Leader>wM :WintabsMove -1<CR>
+
+" Move buffer tabs to another window
+nmap <Leader>wh <Plug>(wintabs_move_to_window_left)
+nmap <Leader>wl <Plug>(wintabs_move_to_window_right)
+nmap <Leader>wk <Plug>(wintabs_move_to_window_above)
+nmap <Leader>wj <Plug>(wintabs_move_to_window_below)
+
+" switching between windows
+nnoremap <silent> <Leader>h :wincmd h<CR>
+nnoremap <silent> <Leader>l :wincmd l<CR>
+nnoremap <silent> <Leader>k :wincmd k<CR>
+nnoremap <silent> <Leader>j :wincmd j<CR>

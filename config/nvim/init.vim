@@ -21,7 +21,7 @@ call plug#begin()
     Plug 'stsewd/fzf-checkout.vim'
 
     " Tab visibility
-    Plug 'mkitt/tabline.vim'
+    " Plug 'mkitt/tabline.vim'
 
     " Syntax highlighting
     Plug 'sheerun/vim-polyglot'
@@ -35,10 +35,11 @@ call plug#begin()
     " Snippets
     " Plug 'honza/vim-snippets'
 
+    " Surround
+    Plug 'tpope/vim-surround'
+
     " Themes
-    Plug 'morhetz/gruvbox'
     Plug 'sainnhe/gruvbox-material'
-    " Plug 'w0ng/vim-hybrid'
 
     " Comments
     Plug 'tpope/vim-commentary'
@@ -49,8 +50,7 @@ call plug#begin()
     " Auto-close brackets
     Plug 'kitallen23/vim-autoclose'
 
-    " Rainbow brackets
-    Plug 'luochen1990/rainbow'
+    Plug 'zefei/vim-wintabs'
 
 call plug#end()
 
@@ -62,7 +62,7 @@ set cursorline                  " Highlight the line the cursor is on
 set noswapfile                  " Disable swap files
 set scrolloff=5                 " Scroll the screen when cursor is x rows from the top / bottom
 set signcolumn=yes              " Always show the gutter
-set hidden                      " Still trying to figure this out...
+set hidden                      " Allow vim to open files without necessarily displaying them on screen
 set shortmess+=c
 set updatetime=200              " Reduce update time (better usability)
 set cmdheight=1                 " Increase the command prompt's height
@@ -144,15 +144,23 @@ autocmd CursorHold * silent call CocActionAsync('highlight')
 
 " Coc-prettier config
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
-
 " Fugitive fix for colemak layout
 let g:fugitive_no_maps=1
 
 " AutoClose [s]urround remap
 let g:AutoCloseSelectionWrapPrefix="<Leader>s"
 
-" Rainbow
-let g:rainbow_active = 1
+" vimspector
+" let g:vimspector_enable_mappings = 'HUMAN'
+" packadd! vimspector
+
+" vim-buffer
+let g:wintabs_ui_sep_inbetween=''
+let g:wintabs_ui_sep_rightmost=''
+let g:wintabs_ui_active_left='['
+let g:wintabs_ui_active_right=']'
+let g:wintabs_ui_active_higroup='TabLineSel'
+let g:wintabs_display='statusline'
 
 " Remaps
-:so ~/.config/nvim/remaps.vim
+:so ~/Documents/dotfiles/config/nvim/remaps.vim
