@@ -22,7 +22,7 @@ let mapleader = " "
 " Open fuzzy find window
 nnoremap <silent> <C-p> :Files<CR>
 " Open file history
-" nnoremap <silent> <Leader>h :History<CR>
+nnoremap <silent> <C-t> :History<CR>
 " Show open windows
 " nnoremap <silent> <C-t> :Windows<CR>
 " Show buffers

@@ -1,5 +1,4 @@
 call plug#begin()
-
     " Status bar
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
@@ -7,21 +6,19 @@ call plug#begin()
     " Easymotion navigation
     Plug 'easymotion/vim-easymotion'
 
+    " COC: Conquer Of Completion <3
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
     " Git integration
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-rhubarb'
-    " Git gutter visibility
     Plug 'airblade/vim-gitgutter'
+
 
     " Fuzzy finding
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
     Plug 'stsewd/fzf-checkout.vim'
-
-    " Tab visibility
-    " Plug 'mkitt/tabline.vim'
 
     " Syntax highlighting
     Plug 'sheerun/vim-polyglot'
@@ -32,11 +29,11 @@ call plug#begin()
     " Alignment of text, tables, etc.
     Plug 'junegunn/vim-easy-align'
 
-    " Snippets
-    " Plug 'honza/vim-snippets'
-
     " Surround
     Plug 'tpope/vim-surround'
+    "
+    " Indentation
+    Plug 'Yggdroot/indentLine'
 
     " Themes
     Plug 'sainnhe/gruvbox-material'
@@ -50,6 +47,7 @@ call plug#begin()
     " Auto-close brackets
     Plug 'kitallen23/vim-autoclose'
 
+    " Tabs in windows
     Plug 'zefei/vim-wintabs'
 
 call plug#end()
@@ -161,6 +159,9 @@ let g:wintabs_ui_active_left='['
 let g:wintabs_ui_active_right=']'
 let g:wintabs_ui_active_higroup='TabLineSel'
 let g:wintabs_display='statusline'
+
+" indentation
+let g:indentLine_char = '¦'
 
 " Remaps
 :so ~/Documents/dotfiles/config/nvim/remaps.vim

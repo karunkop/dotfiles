@@ -1,5 +1,5 @@
 # zsh alias
-alias greet="echo hello"
+alias greet="echo 'hello HOT terminal'"
 # basic command
 alias q="exit"
 alias ls="ls --color=auto"

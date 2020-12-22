@@ -18,8 +18,8 @@
     Mod4 + n
 
 # File Manager
-#"bl-file-manager"
-"tilix -a app-new-window -x \"ranger\""
+# "tilix -a app-new-window -x \"ranger\""
+"bl-file-manager"
     Mod4 + f
 
 # Editor
