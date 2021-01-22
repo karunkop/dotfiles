@@ -19,7 +19,7 @@
 
 # File Manager
 # "tilix -a app-new-window -x \"ranger\""
-"bl-file-manager"
+"thunar"
     Mod4 + f
 
 # Editor

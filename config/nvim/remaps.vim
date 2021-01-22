@@ -173,3 +173,13 @@ nnoremap <silent> <Leader>h :wincmd h<CR>
 nnoremap <silent> <Leader>l :wincmd l<CR>
 nnoremap <silent> <Leader>k :wincmd k<CR>
 nnoremap <silent> <Leader>j :wincmd j<CR>
+
+" logging with vim timber
+nmap <Leader>tl <Plug>(TimberLog)
+nmap <Leader>ti <Plug>(TimberLogInfo)
+nmap <leader>tw <Plug>(TimberLogWarning)
+nmap <leader>te <Plug>(TimberLogError)
+xmap <leader>tl <Plug>(TimberLog)
+xmap <leader>ti <Plug>(TimberLogInfo)
+xmap <leader>tw <Plug>(TimberLogWarning)
+xmap <leader>te <Plug>(TimberLogError)

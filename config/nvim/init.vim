@@ -47,6 +47,9 @@ call plug#begin()
     " Auto-close brackets
     Plug 'kitallen23/vim-autoclose'
 
+    " Logging
+    Plug 'kitallen23/vim-timber'
+
     " Tabs in windows
     Plug 'zefei/vim-wintabs'
 
@@ -161,7 +164,7 @@ let g:wintabs_ui_active_higroup='TabLineSel'
 let g:wintabs_display='statusline'
 
 " indentation
-let g:indentLine_char = '¦'
+let g:indentLine_char = '.'
 
 " Remaps
 :so ~/Documents/dotfiles/config/nvim/remaps.vim
