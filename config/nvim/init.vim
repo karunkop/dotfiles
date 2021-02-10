@@ -167,4 +167,4 @@ let g:wintabs_display='statusline'
 let g:indentLine_char = '.'
 
 " Remaps
-:so ./remaps.vim
+:so ~/Documents/dotfiles/config/nvim/remaps.vim
