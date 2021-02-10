@@ -43,6 +43,11 @@ load-nvmrc() {
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 # --------------------------------------------------------
+# typewritten
+fpath+=$HOME/shell/typewritten
+autoload -U promptinit; promptinit
+prompt typewritten
+# --------------------------------------------------------
 # take
 take () {
   mkdir "$1"
