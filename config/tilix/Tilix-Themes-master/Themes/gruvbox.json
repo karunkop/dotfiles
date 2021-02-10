@@ -1,12 +1,11 @@
 {
-    "name": "Material Gruvbox",
+    "name": "Gruvbox for Tilix",
     "comment": "Ported for Trilix Colour Scheme",
     "use-theme-colors": false,
     "foreground-color": "#ebdbb2",
-    "background-color": "#1c1c1c",
+    "background-color": "#282828",
     "palette": [
-			 "#1d2021",
-			 "#282828",
+         "#282828",
 		     "#cc241d",
 		     "#98971a",
 		     "#d79921",
