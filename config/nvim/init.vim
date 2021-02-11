@@ -53,6 +53,9 @@ call plug#begin()
     " Tabs in windows
     Plug 'zefei/vim-wintabs'
 
+    " vimspector
+    Plug 'puremourning/vimspector'
+
 call plug#end()
 
 syntax enable
@@ -61,7 +64,7 @@ set mouse=a                     " Enable mouse support
 set showtabline=2               " Always show the buffer tab
 set cursorline                  " Highlight the line the cursor is on
 set noswapfile                  " Disable swap files
-set scrolloff=5                 " Scroll the screen when cursor is x rows from the top / bottom
+set scrolloff=8                 " Scroll the screen when cursor is x rows from the top / bottom
 set signcolumn=yes              " Always show the gutter
 set hidden                      " Allow vim to open files without necessarily displaying them on screen
 set shortmess+=c
@@ -98,7 +101,7 @@ let g:airline_section_z=''
 let g:airline_section_y=''
 
 " Fzf config
-let g:fzf_layout = { 'window': { 'width': 0.8, 'height': 0.8 } }
+let g:fzf_layout = { 'window': { 'width': 0.9, 'height': 0.9 } }
 let $FZF_DEFAULT_OPTS='--reverse'
 let g:fzf_buffers_jump=1
 

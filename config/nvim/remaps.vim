@@ -12,7 +12,7 @@
 " * Leader mappings *******************************************
 " *************************************************************
 
-let mapleader = " "
+let mapleader= " "
 
 " *************************************************************
 " * Plugin-specific mappings **********************************
@@ -28,7 +28,7 @@ nnoremap <silent> <C-t> :History<CR>
 " Show buffers
 " nnoremap <silent> <C-b> :Buffers<CR>
 " Open ripgrep window
-nnoremap <C-f> :Rg /
+nnoremap <C-f> :Rg 
 
 " Fugitive maps -----------------------------------------------
 "
@@ -39,7 +39,6 @@ nnoremap <Leader>gl :G blame<CR>
 
 " COC ---------------------------------------------------------
 nmap <silent> gdd :call CocAction('jumpDefinition', 'drop')<CR>
-nmap <silent> gdt :call CocAction('jumpDefinition', 'tabe')<CR>
 nmap <silent> gdv :call CocAction('jumpDefinition', 'vsplit')<CR>
 nmap <silent> gy  <Plug>(coc-type-definition)
 nmap <silent> gi  <Plug>(coc-implementation)
@@ -99,25 +98,6 @@ nmap <leader>f :CocCommand prettier.formatFile<CR>
 
 nmap <silent> <leader>v :CocCommand explorer<CR>
 
-" coc snippets
-" Use <C-l> for trigger snippet expand.
-imap <C-l> <Plug>(coc-snippets-expand)
-
-" Use <C-j> for select text for visual placeholder of snippet.
-vmap <C-j> <Plug>(coc-snippets-select)
-
-" Use <C-j> for jump to next placeholder, it's default of coc.nvim
-let g:coc_snippet_next = '<c-j>'
-
-" Use <C-k> for jump to previous placeholder, it's default of coc.nvim
-let g:coc_snippet_prev = '<c-k>'
-
-" Use <C-j> for both expand and jump (make expand higher priority.)
-imap <C-j> <Plug>(coc-snippets-expand-jump)
-
-" Use <leader>x for convert visual selected code to snippet
-" xmap <leader>x  <Plug>(coc-convert-snippet)
-
 " Easyalign maps ----------------------------------------------
 " Start interactive EasyAlign in visual mode
 xmap ga <Plug>(EasyAlign)
@@ -130,10 +110,10 @@ nmap ga <Plug>(EasyAlign)
 
 nnoremap ; :
 
-nnoremap <C-J> 5j
-xnoremap <C-J> 5j
-nnoremap <C-K> 5k
-xnoremap <C-K> 5k
+nnoremap <C-J> 8j
+xnoremap <C-J> 8j
+nnoremap <C-K> 8k
+xnoremap <C-K> 8k
 
 " insert line above and below
 nnoremap <leader>o o<ESC>
@@ -143,10 +123,10 @@ nnoremap <leader>O O<ESC>
 nnoremap <silent><expr> <Leader>/ (&hls && v:hlsearch ? ':nohls' : ':set hls')."\n"
 
 " select primary register
-xnoremap <leader>r "+
+nnoremap <leader>r "+
 
 " align window to top of screen after G
-nnoremap G Gzt
+nnoremap G Gzz
 
 nnoremap <leader>z :set nowrap!<CR>
 
@@ -154,7 +134,7 @@ nnoremap <leader>z :set nowrap!<CR>
 nnoremap <silent> <C-h> :WintabsPrev<CR>
 nnoremap <silent> <C-l> :WintabsNext<CR>
 nnoremap <silent> <C-q> :WintabsClose<CR>
-nnoremap <silent> <Leader>x :WintabsUndo<CR>
+nnoremap <silent> <Leader>wu :WintabsUndo<CR>
 nnoremap <silent> <Leader>wa :WintabsAllBuffers<CR>
 nnoremap <silent> <Leader>wo :WintabsOnly<CR>
 
