@@ -55,6 +55,7 @@ call plug#begin()
 
     " vimspector
     Plug 'puremourning/vimspector'
+    Plug 'szw/vim-maximizer'
 
 call plug#end()
 
@@ -168,6 +169,12 @@ let g:wintabs_display='statusline'
 
 " indentation
 let g:indentLine_char = '.'
+
+" vimspector
+fun! GotoWindow(id)
+    call win_gotoid(a:id)
+    MaximizerToggle
+endfun
 
 " Remaps
 :so ~/Documents/dotfiles/config/nvim/remaps.vim
