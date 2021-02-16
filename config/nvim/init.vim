@@ -65,7 +65,7 @@ set mouse=a                     " Enable mouse support
 set showtabline=2               " Always show the buffer tab
 set cursorline                  " Highlight the line the cursor is on
 set noswapfile                  " Disable swap files
-set scrolloff=8                 " Scroll the screen when cursor is x rows from the top / bottom
+set scrolloff=5                 " Scroll the screen when cursor is x rows from the top / bottom
 set signcolumn=yes              " Always show the gutter
 set hidden                      " Allow vim to open files without necessarily displaying them on screen
 set shortmess+=c

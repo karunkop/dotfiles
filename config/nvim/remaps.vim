@@ -110,10 +110,10 @@ nmap ga <Plug>(EasyAlign)
 
 nnoremap ; :
 
-nnoremap <C-J> 8j
-xnoremap <C-J> 8j
-nnoremap <C-K> 8k
-xnoremap <C-K> 8k
+nnoremap <C-J> 5j
+xnoremap <C-J> 5j
+nnoremap <C-K> 5k
+xnoremap <C-K> 5k
 
 " insert line above and below
 nnoremap <leader>o o<ESC>
