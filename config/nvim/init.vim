@@ -48,14 +48,21 @@ call plug#begin()
     Plug 'kitallen23/vim-autoclose'
 
     " Logging
-    Plug 'kitallen23/vim-timber'
+    Plug 'nepali-prabhat/vim-timber'
 
     " Tabs in windows
     Plug 'zefei/vim-wintabs'
 
+    " Tags
+    Plug 'ludovicchabant/vim-gutentags'
+
     " vimspector
     Plug 'puremourning/vimspector'
     Plug 'szw/vim-maximizer'
+
+    " pro-sessions
+    Plug 'tpope/vim-obsession'
+    Plug 'dhruvasagar/vim-prosession'
 
 call plug#end()
 
@@ -176,5 +183,19 @@ fun! GotoWindow(id)
     MaximizerToggle
 endfun
 
+" ctags
+let g:gutentags_ctags_exclude = [
+    \ 'build/*',
+    \ 'node_modules/*',
+    \ 'docs/*',
+    \ '.aws/*'
+\]
+
+" Session settings
+set sessionoptions+=globals
+let g:prosession_dir='~/.config/nvim/pro-sessions'
+let g:prosession_per_branch=1
+
 " Remaps
 :so ~/Documents/dotfiles/config/nvim/remaps.vim
+

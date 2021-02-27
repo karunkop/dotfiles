@@ -48,6 +48,8 @@ nmap <silent> gr  <Plug>(coc-references)
 nmap <leader>ac  <Plug>(coc-codeaction)<CR>
 " Apply AutoFix to problem on the current line.
 nmap <leader>qf  <Plug>(coc-fix-current)<CR>
+" Goto next diafnostic position
+nmap <leader>gn  <Plug>(coc-diagnostic-next)
 " Apply eslint execute autofix
 nmap <leader>af  :CocCommand eslint.executeAutofix<CR>
 

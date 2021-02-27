@@ -179,13 +179,13 @@
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
     <!-- Keybindings for desktop switching -->
-    <keybind key="C-A-Left">
+    <keybind key="C-A-j">
       <action name="GoToDesktop">
         <to>left</to>
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="C-A-Right">
+    <keybind key="C-A-k">
       <action name="GoToDesktop">
         <to>right</to>
         <wrap>no</wrap>
@@ -203,13 +203,13 @@
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="S-A-Left">
+    <keybind key="S-A-h">
       <action name="SendToDesktop">
         <to>left</to>
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="S-A-Right">
+    <keybind key="S-A-l">
       <action name="SendToDesktop">
         <to>right</to>
         <wrap>no</wrap>
@@ -361,10 +361,10 @@
     <keybind key="W-Right">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
-        <width>45%</width>
-        <height>92%</height>
-        <x>-50</x>
-        <y>50</y>
+        <width>50%</width>
+        <height>100%</height>
+        <x>-0</x>
+        <y>0</y>
       </action>
     </keybind>
     <keybind key="W-Left">
@@ -398,7 +398,7 @@
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
         <width>95%</width>
-        <height>91%</height>
+        <height>93%</height>
         <x>50</x>
         <y>50</y>
       </action>
