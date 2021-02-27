@@ -24,14 +24,14 @@ call plug#begin()
     Plug 'sheerun/vim-polyglot'
 
     " Highlight yanked text
-    Plug 'machakann/vim-highlightedyank'
+    " Plug 'machakann/vim-highlightedyank'
 
     " Alignment of text, tables, etc.
     Plug 'junegunn/vim-easy-align'
 
     " Surround
     Plug 'tpope/vim-surround'
-    "
+
     " Indentation
     Plug 'Yggdroot/indentLine'
 
@@ -98,6 +98,8 @@ set smartindent
 set splitright                  " Default vsplit goes to the right
 set splitbelow                  " Default hsplit goes to the bottom
 
+set termguicolors               " enable true colors support
+
 " ########
 " ## Plugin settings #########
 " ########
@@ -158,6 +160,9 @@ autocmd CursorHold * silent call CocActionAsync('highlight')
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 " Fugitive fix for colemak layout
 let g:fugitive_no_maps=1
+
+" Coc-yank config
+nnoremap <silent> <space>y  :<C-u>CocList -A --normal yank<cr>
 
 " AutoClose [s]urround remap
 let g:AutoCloseSelectionWrapPrefix="<Leader>s"

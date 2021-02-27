@@ -26,5 +26,6 @@
     "coc.preferences.formatOnSaveFiletypes": [],
     "prettier.tabWidth": 4,
     "prettier.singleQuote": false,
-    "prettier.trailingComma": "all"
+    "prettier.trailingComma": "all",
+    "yank.highlight.duration": 220
 }
