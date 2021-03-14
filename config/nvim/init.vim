@@ -37,6 +37,7 @@ call plug#begin()
 
     " Themes
     Plug 'sainnhe/gruvbox-material'
+    Plug 'morhetz/gruvbox'
 
     " Comments
     Plug 'tpope/vim-commentary'
