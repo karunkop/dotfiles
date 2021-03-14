@@ -4,7 +4,6 @@ These are my ditfiles for
 	- openbox
 	- zsh
 
-
 Programs to install
 	- de:
 		- conkey
@@ -13,3 +12,6 @@ Programs to install
 	- vim
 		- bat
 		- ripgrep
+
+Coc extensions
+    CocInstall coc-explorer coc-tsserver coc-css coc-eslint coc-flutter coc-html coc-highlight coc-markdownlint coc-sql coc-svg coc-snippets coc-jest coc-python coc-json coc-prettier coc-yank coc-yaml
