@@ -1,0 +1,5 @@
+explorer
+prettier.formatFile
+eslint.showOutputChannel
+yank.clean
+eslint.executeAutofix

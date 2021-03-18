@@ -1,0 +1,1238 @@
+8ee7fd9581ce6eedb1aa301602ce4bcc|file:///home/prabhat/Documents/code/kalysys/client/src/views/Tools/MailingList/List/ListMailingList.js|237|16|v|javascript
+	<span>
+85ed686d4f4773363fc12e01b4d5dcbd|file:///home/prabhat/Documents/code/kalysys/client/src/views/Tools/MailingList/List/ListMailingList.js|237|16|v|javascript
+	<span>{cell.value}</span>;
+2d1124277699084cc3eafd146c9771ab|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|21|31|v|javascript
+	getCellRenderer(cell, "text"),
+	
+8d27600b0cae5308441ddf6d9bb3c74c|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|21|23|v|javascript
+	cell
+84b46578b4f8f76fc665008717d4ce5b|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|21|1|V|javascript
+	                Cell: ({ value }) => <span>{value}</span>,
+c08efc41713fb75aac8a194c385fac85|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|27|1|V|javascript
+	                Cell: cell => getCellRenderer(cell, "text"),
+ae2bbb541985f10cd84cf263609d7fe3|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|15|2|V|javascript
+	    const getTableColumns = () => {
+	        const temp = [
+	            {
+	                Header: "From",
+	                accessor: "from",
+	                fieldType: "text",
+	                Cell: ({ value }) => <span>{value}</span>,
+	            },
+	            {
+	                Header: "To",
+	                accessor: "to",
+	                fieldType: "text",
+	                Cell: ({ value }) => <span>{value}</span>,
+	            },
+	            {
+	                Header: "Opens",
+	                accessor: "opens",
+	                fieldType: "text",
+	                Cell: ({ value }) => <span>{value}</span>,
+	            },
+	            {
+	                Header: "Clicks",
+	                accessor: "clicks",
+	                fieldType: "text",
+	                Cell: ({ value }) => <span>{value}</span>,
+	            },
+	        ];
+	        return temp;
+	    };
+c24316c316e402fe3466cfad1fc9e3b7|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|18|5|V|javascript
+	        () => {
+	            let settingsPageSize = _.get(props, ["settings", "employee", "preferences", "defaultTableRows"], null);
+	            let pageSize = isNaN(+parseInt(settingsPageSize)) ? 10 : +parseInt(settingsPageSize);
+	            const getTableColumns = () => {
+	                const temp = [
+	                    {
+	                        Header: "From",
+	                        accessor: "from",
+	                        fieldType: "text",
+	                        Cell: ({ value }) => <span>{value}</span>,
+	                    },
+	                    {
+	                        Header: "To",
+	                        accessor: "to",
+	                        fieldType: "text",
+	                        Cell: ({ value }) => <span>{value}</span>,
+	                    },
+	                    {
+	                        Header: "Opens",
+	                        accessor: "opens",
+	                        fieldType: "text",
+	                        Cell: ({ value }) => <span>{value}</span>,
+	                    },
+	                    {
+	                        Header: "Clicks",
+	                        accessor: "clicks",
+	                        fieldType: "text",
+	                        Cell: ({ value }) => <span>{value}</span>,
+	                    },
+	                ];
+	                return temp;
+	            };
+	            return { pageSize, tableData: [], tableColumns: getTableColumns() };
+	        }
+243b5cbff4685656293af19110d0c17c|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|14|28|v|javascript
+	()=>{
+2e5d8aa3dfa8ef34ca5131d20f9dad51|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|15|46|v|javascript
+	settings
+c93e01b2bd0d7f6def3e5bdb75258433|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|75|38|v|javascript
+	viewMailingList(rowInfo.original);
+903b70736c4f77c8d23a19cd635434ff|file:///home/prabhat/Documents/code/kalysys/client/src/views/Tools/MailingList/List/SidePanel/SidePanel.js|72|22|v|javascript
+	DisplayActivitiesInTable
+12daf8cc3ce9c6137ff488c8f2f5b806|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|26|4|V|javascript
+	        entryController.editEntry(actionEntry),
+0cf31b2c283ce3431794586df7b0996d|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|26|4|V|javascript
+	    
+a8cfde6331bd59eb2ac96f8911c4b666|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|26|23|v|javascript
+	object
+2063c1608d6e0baf80249c42e2be5804|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|26|85|v|javascript
+	value
+3994017c85ebd2fd55a23fd2f20d8436|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|26|1|V|javascript
+	                _.set(
+	                    successfulEdits,
+	                    [actionEntry.recordId, actionEntry.entryId],
+	                    true,
+	                );
+f09cc7ee3a9a93273f4b80601cafb00c|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|40|14|v|javascript
+	values
+bc084ae2225f542803cc5f4d3aa5672d|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|41|5|v|javascript
+	response 
+afdd268c5df555b8b612dfb476a109b8|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|27|54|V|javascript
+	            console.log(`actionEntry: `, actionEntry);
+f662c38e87c750e13bfbab8db84f5980|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|27|13|v|javascript
+	retrun
+e70c4df10ef0983b9c8c31bd06b2a2c3|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|27|13|v|javascript
+	return
+eaa4e6e76f50120081cca9795bfc48ba|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|41|19|V|javascript
+	            return 
+173184803273c64d1421684dd396a325|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|30|45|v|javascript
+	actionEntry
+8821b26a77da1f9c5ff52bc9da9ea345|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|30|45|v|javascript
+	entryId 
+37b316a37a817c7fa11ce003080bcd9b|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|28|18|V|javascript
+	            const 
+d366ddbdff4b1637b8ff69b0941565c7|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|29|15|V|javascript
+	            ddk
+f98cdc022b7a9f8eaa714defa7879fcb|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|28|17|V|javascript
+	            const
+9459bae104cf19f234031ad6e4250636|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|28|17|V|javascript
+	            successfulEdits = {...successfulEdits, }
+76eb7ac47b24430cec38bcd2a0078054|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|28|19|v|javascript
+	currentRecordState
+8760dd4c369243428cc1c97942b88834|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|40|1|V|javascript
+	            _.set(
+	                successfulEdits,
+	                `${actionEntry.recordId}.${actionEntry.entryId}`,
+	                true,
+	            );
+65c071bc1abc1f4a644d6fddc15ada34|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|33|1|V|javascript
+	            successfulEdits = {
+	                ...successfulEdits,
+	                [actionEntry.recordId]: {
+	                    ...currentRecordState,
+	                    [actionEntry.entryId]: true,
+	                },
+	            };
+12b9570da60c058e904d883dfce8dd5a|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|28|1|V|javascript
+	            const currentRecordState = _.get(
+	                successfulEdits,
+	                actionEntry.recordId,
+	                {},
+	            );
+37fd81c07bca258b4490174d77e2d2d0|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|42|1|V|javascript
+	            _.set(
+	                successfulEdits,
+	                [actionEntry.recordId + "", actionEntry.entryId + ""],
+	                false,
+	            );
+42cf0ca559c2edba5533291f28c1c9be|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|46|21|V|javascript
+	                    [actionEntry.entryId]: true,
+b734afa2390182c7feffd566b9e5cb0e|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|26|1|V|javascript
+	        const currentRecordState = _.get(
+	            successfulEdits,
+	            actionEntry.recordId,
+	            {},
+	        );
+291e030ba4d6906de043d212dd959481|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|25|27|V|javascript
+	        const currentRecordState = successfulEdits[actionEntry.recordId] || {};
+40d975b277049558245766e1b4ad6508|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|28|31|v|javascript
+	[...successfulEdits, ]
+2820b51460f9c2abbdb40eeba74eaaed|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|28|13|v|javascript
+	successfulEdits 
+e1262e6afa3da9de18781aeab2f759a2|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|28|1|V|javascript
+	            successfulEdits.push(actionEntry);
+6278962f29ab7414272e9f09c763ef94|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|31|1|V|javascript
+	            successfulEdits = {
+	                ...successfulEdits,
+	                [actionEntry.recordId]: {
+	                    ...currentRecordState,
+	                    [actionEntry.entryId]: false,
+	                },
+	            };
+ab89aa97a3c30f4a2e9b5a3dad0cbf96|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|27|1|V|javascript
+	            successfulEdits.push(actionEntry.entryId);
+4d62fbe91db5e00a0f3e17f81ac37be7|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/workflows/actionHandler/updateEntryBulk.js|26|30|V|javascript
+	            if (i == 0) throw "eh";
+eaf16d5c636855bf84546496542c741b|file:///home/prabhat/Documents/code/kalysys/server/server/modules/externalIntegration/services/openapi.service.js|674|1|V|javascript
+	                                        {
+	                                            name: "filter",
+	                                            in: "query",
+	                                            schema: {
+	                                                type: "array",
+	                                                items: {
+	                                                    type: "object",
+	                                                },
+	                                            },
+	                                            description: "Use filters",
+	                                        },
+5ac277c9bb3f0c532071b4ecbe685635|file:///tmp/707129361.md|2|1|V|markdown
+	
+	<!-- Replace this text with a descriptive information on what you did on this PR. -->
+	
+	## Related Tickets, Documents or Links
+	
+	<!-- Replace this text with link to documentation, or add any crucial information about your task. -->
+	
+	## Related PRs
+	
+	<!-- Are there any PRs this PR is linked with? -->
+	
+	## Any additional information on the task?
+	
+	<!-- Add extra info like if you added a new package, add what it does and how heavy the package is. -->
+418eaa06fcfce9bc0fab36f11871bc3e|file:///home/prabhat/Documents/code/kalysys/server/server/modules/externalIntegration/services/openapi.service.js|305|1|V|javascript
+	                                            items: {
+	                                                type: "object",
+	                                            },
+75aa32914fea1141c638b937b6073d52|file:///home/prabhat/Documents/code/kalysys/server/server/modules/externalIntegration/services/openapi.service.js|305|1|V|javascript
+	                                            items: {
+	                                                type: "any",
+	                                            },
+466deec76ecdf5fca6d38571f6324d54|file:///home/prabhat/Documents/code/kalysys/server/server/modules/externalIntegration/services/openapi.service.js|306|56|v|javascript
+	json
+b141668d2c7a60b8fe2e24e78d0bfb0a|file:///home/prabhat/Documents/code/kalysys/server/server/modules/externalIntegration/services/openapi.service.js|304|52|V|javascript
+	                                            type: "array",
+	                                            items: {
+4de8d437ddfc4cafe2c9094c9799c62c|file:///home/prabhat/Documents/code/kalysys/server/server/modules/externalIntegration/services/openapi.service.js|305|46|V|javascript
+	                                            },
+ec3a0e5ab6f796f4c390bf62078d1cb2|file:///home/prabhat/Documents/code/kalysys/server/docs/release-1.2.7/external-api.md|8|1|V|markdown
+	CREATE TABLE "ExternalAccessTokens"
+	(
+	    "id" SERIAL PRIMARY KEY,
+		"name" VARCHAR(255) NOT NULL,
+		"owner" INTEGER NOT NULL,
+		"user" INTEGER NOT NULL,
+		"key" VARCHAR(255) NOT NULL UNIQUE,	
+		"scope" JSONB NOT NULL,
+		"status" CHAR(1) NOT NULL,
+	    "createdAt" timestamp with time zone NOT NULL,
+	    "updatedAt" timestamp with time zone NOT NULL	
+	);
+5d5d71986573acd240114e326cd3c052|file:///tmp/228990973.md|1|1|V|markdown
+	- fixed bug with filters query params showing in subrecord path of api docs
+892d742a97fa90196d8b6135255fe7a7|file:///tmp/228990973.md|1|1|V|markdown
+	- changed filter documentation validation schema
+	- added type for filter
+	- made filter type string instead of json
+	
+2a5feb04a8e28741e23b2f089378e969|file:///home/prabhat/Documents/code/kalysys/server/server/modules/externalIntegration/services/openapi.service.js|304|1|V|javascript
+	                                            type: "string",
+	                                        },
+	                                        description:
+1632cd99327e27f50d6742e66077b0e4|file:///home/prabhat/.config/bunsen/autostart|118|7|V|
+	clipit &
+5c141f2760cf82a3b7107b8dbdfdf683|file:///home/prabhat/Documents/code/kalysys/server/server/modules/externalIntegration/services/openapi.service.js|309|1|V|javascript
+	                                            type: "string",
+	                                        },
+	                                        description:
+	
+3447d0a97d91bd1a61e77ce3cb2201ed|file:///home/prabhat/Documents/code/kalysys/server/server/modules/handlers/campaign/handler.js|535|1|V|javascript
+	    } catch (err) {
+	        next(err);
+	    }
+ea5a1cbe764918679997181a3ea281d3|file:///home/prabhat/Documents/code/kalysys/server/server/modules/handlers/campaign/handler.js|542|4|V|javascript
+	    }
+295e8a2d261f548dc9312d85da64f325|file:///home/prabhat/Documents/code/kalysys/server/server/modules/handlers/campaign/handler.js|483|1|V|javascript
+	        const { owner } = res.locals.selectedRole;
+	        const mailingListId = req.params.id;
+	        const mailingListRecordInfo = await recordController.getRecord({
+	            internalId: "email-campaign",
+	            owner,
+	        });
+	        const emailRecordInfo = await recordController.getRecord({
+	            internalId: "email",
+	            owner,
+	        });
+	        const entries = await activityLogController.getMailingListExportData({
+	            owner,
+	            mailingListId,
+	            emailRecordId: emailRecordInfo.recordValueId,
+	            mailingListRecordId: mailingListRecordInfo.recordValueId,
+	        });
+a60cdde7ca4fba36b374052942ca0843|file:///home/prabhat/Documents/code/kalysys/server/server/modules/v2/features/activityLog/activityLog.controller.js|245|5|v|javascript
+	getMailingListExportData
+b97a93f2677e3174bc6120f5ad1f4f84|file:///home/prabhat/Documents/code/kalysys/server/server/modules/handlers/campaign/handler.js|540|16|v|javascript
+	getCampaignEmails
+ac2d81af460698594485ca472f065ce0|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/index.js|516|1|V|javascript
+	app.get(
+	    `${api}/campaign/:id/download`,
+	    authCheck,
+	    internalUserCheck,
+	    campaignHandler.exportMailingListAsCsv
+	);
+fd456406745d816a45cae554c788e754|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/index.js|523|26|v|javascript
+	download
+980e1d3d608b7fd6f357b884108c1928|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/index.js|500|1|V|javascript
+	    responseHandler.returnData
+c1fb5285a9c88c7fcda152765ecac1d3|file:///home/prabhat/Documents/code/kalysys/server/server/modules/common/index.js|526|21|v|javascript
+	exportMailingListAsCsv
+179b22f307a87dec50c16068c34eafd6|file:///home/prabhat/Documents/code/kalysys/server/server/modules/handlers/campaign/handler.js|558|15|v|javascript
+	requiredFieldsInTable
+6680dba00f3a88f66f8029a93d71d93c|file:///home/prabhat/Documents/code/kalysys/server/server/modules/handlers/campaign/handler.js|566|9|v|javascript
+	const
+80d395389771bee758898980c381703d|file:///home/prabhat/Documents/code/kalysys/server/server/modules/handlers/campaign/handler.js|566|26|V|javascript
+	        let returnData = {}
+ecf3250cd9f730f56b473e49eea0e0c7|file:///home/prabhat/Documents/code/kalysys/server/server/modules/handlers/campaign/handler.js|568|17|v|javascript
+	returnData
+5fce916b625108149ee3ea5f48d9b0d1|file:///home/prabhat/Documents/code/kalysys/server/server/modules/handlers/campaign/handler.js|574|31|v|javascript
+	entries
+5b0025ec7a084e2b6dd7d6160ab574b6|file:///home/prabhat/Documents/code/kalysys/server/server/modules/handlers/campaign/handler.js|566|22|V|javascript
+	            "createdAt"
+63884efb1bbc4bc699a7dba943b5990f|file:///home/prabhat/Documents/code/kalysys/server/server/modules/handlers/campaign/handler.js|568|22|V|javascript
+	            "createdAt",
+	            "updatedAt"
+187cd780c1334d334a61feb5c3df44b3|file:///home/prabhat/Documents/code/kalysys/server/server/modules/handlers/campaign/handler.js|574|43|v|javascript
+	_.get(entry, field, "");
+051521290f887b65902c43a8a48a9949|file:///home/prabhat/Documents/code/kalysys/server/server/modules/handlers/campaign/handler.js|574|17|v|javascript
+	CountryPage
+8d777f385d3dfec8815d20f7496026dc|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|68|72|v|javascript
+	data
+1745a157ac2d27eddde6e29047390b5e|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|68|24|v|javascript
+	tableData
+5b6d2deb85c3b7ff0ec4b7e1a0e90fa5|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|68|24|v|javascript
+	[], 
+45df2c05040ef7bfe7235e1b67cb8f12|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|68|14|v|javascript
+	pageSize
+059ee7b2a1dda0ae51a434436ca146fa|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|57|1|V|javascript
+	        {
+	            from: "prabhat@kalysys.com.au",
+	            to: '"pandeypravat@gmail.com"',
+	            opens: "",
+	            clicks: "",
+	            delivered: "",
+	            bounced: "",
+	            recordId: 15169,
+	            recordValueId: 93200,
+	        },
+eaa8b2268e5777b52cc4c71d7be2cfcc|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|13|8|V|text
+	khoji hi
+3c041b1c6cdf396dacb68971bfda97e8|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|13|1|v|text
+	khojdai 
+f9bbacc0e743b6359e4a1e5a4b7324e6|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|13|1|v|text
+	bujna lei akhir 
+87edeb7aedc9180ac985e3b20440e179|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|14|1|v|text
+	sayead 
+0e98e9c65ccafd304dcdfc11e92f9745|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|19|22|v|text
+	timi afaima
+10cd89908a8d07e2d706ee4e07fac75b|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|18|1|V|text
+	bhagawan chan timi afai ma
+	afai mai sabai uttar jiwan ko
+728a459b83c746050f120f465d2219a3|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|21|22|v|text
+	 timi
+4f3051c8968e5a61b0061870f7ec90df|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|25|1|V|text
+	ferieala samayae
+	aaula khusi pani
+	nibaula kartabya
+	ramaula ma pani
+	
+	aasai ma basera katdai chu jindagi 
+	baddai chu ma agi, anyol mai vayaeni
+	
+	timi aauchau malai dekhaudai,
+	gantabya k ho vanera
+	
+	prerana bani basechau,
+	lakshya ta milera, 
+	sanga sangai hidera khojaula hami yaha
+8457826a8ee141240f5a74b94fa994a7|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|25|15|V|text
+	Man afai ma khusi
+d0ff812ad7553f05047ce40e48a0b009|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|27|23|v|text
+	mero
+c68b4a12974ca2f00f06cf42168b8102|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|29|1|v|text
+	timi kati ramro, man kati 
+334ede5ecbdf19c6b34615122319d71f|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|29|1|v|text
+	timi kati ramr
+2a54891d8c31bd21f7b2c6512e0d53ee|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|33|1|v|text
+	chaina hola aru k
+39bff83132d506df2f17ea00289c082b|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|25|1|V|text
+	ma afai ma pura, man afai ma khusi
+	sabai vanda chuttai,
+	kati ramro ma ra mero man
+	
+cbc3572f499b5dd2014d31e03eb0e762|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|27|6|v|text
+	ramri
+e1944321de6b5e7a4e28f7f9eaad7fb9|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|29|1|v|text
+	sapana jhai biteko mero jiwan
+f4457a08d161b602228b504660336a2f|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|29|1|v|text
+	asa mai bachne ma, mero 
+6f9a606f979848a34506341cac5cd9e4|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|29|1|V|text
+	sapana ma bachnae ma, mero man ma dar cha
+e52767e0342ec291780b9c2e6f88d17b|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|29|23|v|text
+	mero man ma dar cha
+198c0e4acd6b439c515a3bff0d79b13d|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|29|23|v|text
+	dar bokera
+870f47f238c137b76b12df58a28abc8d|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|30|6|v|text
+	dekhdainau
+5fd979430b4febed6cad840e46d67fc4|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|31|11|v|text
+	mero man le bolayeko
+7473a045ac9ec4111a4ea6a885d70653|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|31|23|V|text
+	sundainau bolayi mero man
+aa927e5deddffd348f1bbccf884b9926|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|27|1|v|text
+	kati 
+2d3e9a9e52244e252331b61dcb10d1f3|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|31|1|v|text
+	sundainau
+771fe778350c90f00dfa9d8f7c265f9c|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|79|30|v|javascript
+	_.get(state, 'data', [])
+c20beed3221e3358712fde4f006ec760|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|81|55|v|javascript
+	pageIndex * state.pageSize
+61f35e44c23f9784b56ead7b8e71c4d1|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|84|49|V|javascript
+	        console.log(`newTableData: `, newTableData);
+075860c8f18ed8212d446a8953e21624|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|69|64|v|javascript
+	data.slice(0,
+35bfe178fb3cb617e0a29a35685c03df|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|82|1|V|javascript
+	        console.log(`startIndex: `, startIndex);
+405c4591ed6fd2f1a5b1056046c99666|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|83|1|V|javascript
+	        console.log(`endIndex: `, endIndex);
+39f4cc0b1038d6f0488ba18ba4e8a9b6|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|48|1|V|javascript
+	        {
+	            from: "prabhat@kalysys.com.au",
+	            to: '"prabhat4coding@gmail.com"',
+	            opens: "",
+	            clicks: "",
+	            delivered: "",
+	            bounced: "",
+	            recordId: 15169,
+	            recordValueId: 93199,
+	        },
+	        {
+	            from: "prabhat@kalysys.com.au",
+	            to: '"pandeypravat@gmail.com"',
+	            opens: "",
+	            clicks: "",
+	            delivered: "",
+	            bounced: "",
+	            recordId: 15169,
+	            recordValueId: 93200,
+	        },
+ad0244a5b78c0e5819ccdb280d7cf0e9|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|76|31|v|javascript
+	onPageSizeChange
+5305c22e368c1761772322939e8ccfb9|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|67|30|v|javascript
+	pageIndex
+56312909044880f5ac1eb722703c2d84|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|68|28|v|javascript
+	state.page
+7ccd1070857899248eafa4c50cecc59d|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|84|13|V|javascript
+	            // onSortedChange={onSortedChange}
+09c016b98f971ead3c8752709c8ee21b|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|59|1|V|javascript
+	            from: "prabhat@kalysys.com.au",
+	            to: '"pandeypravat@gmail.com"',
+	            opens: "",
+	            clicks: "",
+	            delivered: "",
+	            bounced: "",
+	            recordId: 15169,
+	            recordValueId: 93200,
+	        },
+0c83f57c786a0b4a39efab23731c7ebc|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|47|11|v|javascript
+	email
+0b302f52aa4be534409dc7afea486222|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|50|9|v|javascript
+	{
+	            from: "prabhat@kalysys.com.au",
+	            to: '"pandeypravat@gmail.com"',
+	            opens: "",
+	            clicks: "",
+	            delivered: "",
+	            bounced: "",
+	            recordId: 15169,
+	            recordValueId: 93200,
+	        }
+d133d964e06d6af26528965a1361cd5a|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|59|1|V|javascript
+	        ,
+4410ec34d9e6c1a68100ca0ce033fb17|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|57|18|v|javascript
+	Array
+52e638781a4b89294d4b825b791412d6|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|63|12|V|javascript
+	    console.log(`data: `, data);
+f642a89b7903a8a06fd9050e09c0fae7|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|15|9|v|text
+	yei 
+6a9c40caf0bee11dbdca07ac7a2b0ee7|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|15|15|v|text
+	nei 
+1d19a8d73d70a804d3aa40116aedcc0d|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|22|34|V|text
+	man vitra ni milcha sunaulo bihani
+39952aa0911e10fca42cdaa5d114da15|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|11|1|V|text
+	dhauchau math mandir harek bihani
+	khojdai hiddai akhir uttar k ho vani
+	
+	"sayead yei nei hola ki mero kahani"
+	"sayead estai hola ni mero jindagani"
+	
+	bhagawan chan timi afai ma
+	afai mai sabai uttar jiwan ko
+	
+	niyali herana afailei
+	pauchau man vitra ni sunaulo bihani
+08cde56c906ed108df9ece917914dc2c|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|21|13|v|text
+	vitra 
+a6307bf66fa81cb37477ddcfcd887db3|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|21|9|v|text
+	afai 
+b325c3de8831c0e797d5a07079a97818|file:///home/prabhat/Documents/secondBrain/Archive/notes/wipsong.txt|21|1|v|text
+	pauchau
+bc4a361e27213ce4196b4db751c2a24d|file:///home/prabhat/Documents/code/neesum/neespos/src/api/axiosInterceptor.js|1|1|V|javascript
+	import Axios from 'axios';
+	import { baseUrl } from '../constants';
+	import { getToken } from '../utils/tokenHelper';
+	
+	// import { showErrorNotification } from '../components/Notification';
+	
+	export const axiosInstance = Axios.create({
+	    baseURL: baseUrl,
+	    timeout: 20000,
+	});
+	
+	//add token to all request
+	axiosInstance.interceptors.request.use(function (config) {
+	    const token = getToken();
+	    if (token) {
+	        config.headers['Authorization'] = 'Bearer ' + token;
+	    }
+	    return config;
+	});
+	
+	axiosInstance.interceptors.response.use(
+	    function (response) {
+	        return response.data;
+	    },
+	    function (error) {
+	        if (error.response && error.response.data) {
+	            if (error.response.data.message) {
+	                const message = error.response.data.message;
+	                return Promise.reject({ message });
+	            } else return Promise.reject(error.response.data);
+	        } else {
+	            return Promise.reject({
+	                message: 'Some unusual error occured, please try again',
+	            });
+	        }
+	    },
+	);
+22c48431248305bce9cf9ad7384ab894|file:///home/prabhat/Documents/code/kalysys/client/src/utils/api/axiosInstance.js|2|10|v|javascript
+	baseUrl
+a667a3edaab434e0614fd4dcbc6b1aaa|file:///home/prabhat/Documents/code/kalysys/client/src/utils/api/axiosInstance.js|3|14|V|javascript
+	import { getToken } from "../utils/tokenHelper";
+e4c7eb8c6c2fea61df19682dc621ae46|file:///home/prabhat/Documents/code/kalysys/client/src/utils/api/axiosInstance.js|13|19|v|javascript
+	getToken();
+06b9002c21b1ef48788f85cd9861db9a|file:///home/prabhat/Documents/code/kalysys/client/src/utils/api/axiosInstance.js|15|18|v|javascript
+	getSelectedUserRole
+3ca1f4c1bf9b86c3ef6905256c973a1f|file:///home/prabhat/Documents/code/kalysys/client/src/utils/api/flow.js|14|1|V|javascript
+	            clog("api", 2, `${url} (get flow):`, results);
+11ec5ba75b7b6f9456c50af396796ace|file:///home/prabhat/Documents/code/kalysys/client/src/utils/api/axiosInstance.js|33|1|V|javascript
+	        if (error.response && error.response.data) {
+	            if (error.response.data.message) {
+	                const message = error.response.data.message;
+	                return Promise.reject({ message });
+	            } else return Promise.reject(error.response.data);
+	        } else {
+	            return Promise.reject({
+	                message: "Some unusual error occured, please try again",
+	            });
+	        }
+fddf2648155bd263d51476e920d6ca5f|file:///home/prabhat/Documents/code/kalysys/client/src/utils/api/axiosInstance.js|27|49|v|javascript
+	get 
+cff5497121104c2b8e0cb41ed2083a9b|file:///home/prabhat/Documents/code/kalysys/client/src/utils/api/axiosInstance.js|27|49|v|javascript
+	flow
+53e61336bb49ec978968786b07dea50b|file:///home/prabhat/Documents/code/kalysys/client/src/utils/api/axiosInstance.js|27|51|v|javascript
+	results
+2b0513850fa1e5c7ebc853f2df6af7ca|file:///home/prabhat/Documents/code/kalysys/client/src/utils/api/mailingList.js|148|11|v|javascript
+	await
+ada87fe9858660545963de185f2b6216|file:///home/prabhat/Documents/code/kalysys/client/src/utils/api/mailingList.js|150|1|V|javascript
+	    return axios(url, {
+	        method: "get",
+	        url,
+	        headers: { Authorization: `Bearer ${getAccessToken}` },
+	    });
+e9fbbd48062744c01d164f7bc7a4cc0b|file:///home/prabhat/Documents/code/kalysys/client/src/utils/api/mailingList.js|153|41|v|javascript
+	mailingListId
+21ffce5b8a6cc8cc6a41448dd69623c9|file:///home/prabhat/Documents/code/kalysys/client/src/utils/api/mailingList.js|155|5|v|javascript
+	params
+1a8db4c996d8ed8289da5f957879ab94|file:///home/prabhat/Documents/code/kalysys/client/src/utils/api/mailingList.js|155|5|v|javascript
+	property
+497031794414a552435f90151ac3b54b|file:///home/prabhat/Documents/code/kalysys/client/src/utils/api/mailingList.js|155|12|v|javascript
+	Object
+cb5e100e5a9a3e7f6d1fd97512215282|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|75|29|v|javascript
+	error
+a6ec9c024d5c04539fa2dbb8aa44a112|file:///home/prabhat/Documents/code/kalysys/client/src/views/Tools/MailingList/List/SidePanel/SidePanel.js|73|47|v|javascript
+	recordId
+3a0b4713bdaf75dbed1dc5454ebbcbab|file:///home/prabhat/Documents/code/kalysys/client/src/views/Tools/MailingList/List/SidePanel/SidePanel.js|73|47|v|javascript
+	mailingListRecordId
+fb8bd9038ff1b97801ddda9538081cb3|file:///home/prabhat/Documents/code/kalysys/client/src/views/Tools/MailingList/List/SidePanel/SidePanel.js|73|96|v|javascript
+	entryId
+b040e4b301de6d5b5752dbca41ff5e68|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|75|70|v|javascript
+	mailingListEntryId
+a8286da816f93562bf77a767e3f74796|file:///home/prabhat/Documents/code/kalysys/client/src/views/Tools/MailingList/List/SidePanel/SidePanel.js|73|47|v|javascript
+	mailingListRecordId={props.mailingList.recordId} mailingListEntryId={props.mailingList.id} 
+d498380a998d18815103604b0b3a5bc2|file:///home/prabhat/Documents/code/kalysys/client/src/views/Tools/MailingList/List/SidePanel/SidePanel.js|72|69|v|javascript
+	recordid={props.mailinglist.recordid} entryid={props.mailinglist.id} {...activityLogs} 
+05e5298f339f920695f08dc97ca3886b|file:///home/prabhat/Documents/code/kalysys/client/src/views/Tools/MailingList/List/SidePanel/SidePanel.js|73|120|v|javascript
+	activityLogs
+aeec562bc2cf0956bc2857a765c35daa|file:///home/prabhat/Documents/code/kalysys/client/src/views/Tools/MailingList/List/SidePanel/SidePanel.js|72|1|V|javascript
+	                    {/* {props.mailinglist && <displayactivitieslog recordid={props.mailinglist.recordid} entryid={props.mailinglist.id} {...activitylogs} />} */}
+92da6ccc2c41e20f8f0cfddb1db396f8|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|78|1|V|javascript
+	    console.log(`data: `, data);
+	    console.log(`isError: `, isError);
+	    console.log(`isLoading: `, isLoading);
+61e20de37ffb3822ce58c7bbd7409844|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|78|42|V|javascript
+	        console.log(`isError: `, isError);
+	        console.log(`isLoading: `, isLoading);
+	        console.log(`data: `, data);
+d0a8032b17324fe174bcc72e6deefb2f|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|85|1|V|javascript
+	    console.log(`isError: `, isError);
+	    console.log(`isLoading: `, isLoading);
+	    console.log(`data: `, data);
+a1ac983aa3e275625e47c19ef48d2cb9|file:///home/prabhat/Documents/code/kalysys/client/src/utils/api/mailingList.js|158|62|v|javascript
+	async 
+1e80c482fc2f989736f80836809ac50a|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|81|41|v|javascript
+	data.slice(0, state.pageSize)
+9455f132df6e51dd385d2ae70fce5cc7|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|81|41|v|javascript
+	tableData 
+2b856e79bbd2bd569cfb6165743ab3de|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|66|19|v|javascript
+	data.length;
+a0d212aa6de0bd726642536dccb3c784|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|64|1|V|javascript
+	    // const data = [];
+	    // const tableData = data.slice(0, pageSize);
+8f87c9b204ba42204877822899c3ef32|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|109|21|v|javascript
+	state.loaded
+2430fe39e225818bd957ed4cb53eb770|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|65|110|v|javascript
+	loaded
+8f0e8c881b41b9c33164a4acd5dead67|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|65|110|v|javascript
+	false 
+a0205a77d390a98402bbd5f17bb61e01|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|20|35|V|javascript
+	    const getTableColumns = () => {
+3d801aa532c1cec3ee82d87a99fdf63f|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|20|15|v|javascript
+	temp
+4cbce83abf161840d9d77eef58ec1fa1|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|46|20|V|javascript
+	        return temp;
+	    };
+f5bf30697099c1f11ca5df5ae4a845b8|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|62|28|v|javascript
+	getTableColumns
+63f523bc651e4a2c6a37c22f018aa4cd|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|72|24|v|javascript
+	isError 
+a14fa2166ed698f3d04061f57e5ab9b9|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|106|13|v|javascript
+	loading
+dda6fc3a049a08b9e760263d04281818|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|74|38|V|javascript
+	            console.log(`data on success: `, data);
+a7a22e9727db72ba24ad08ae23892851|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|56|1|V|javascript
+	    // const data = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26].map((value, i) => ({
+	    //     ...sampleEmail,
+	    //     opens: i,
+	    //     recordValueId: sampleEmail.recordValueId + i,
+	    // }));
+cf6ae95e68675f1b976d6cbf6bb43f6c|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|76|20|v|javascript
+	sampleEmail
+2d1789f4297ccbde9c34501bbc9e8b6f|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|81|30|V|javascript
+	                .slice(0, state.pageSize);
+6fd67ddac9529faaf22003cd58011111|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|75|1|V|javascript
+	            const tableData = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26].map((value, i) => ({
+	                ...data[0],
+	                opens: i,
+	                recordValueId: data[0].recordValueId + i,
+	            }));
+6d52012dca4fc77aa554f25430aef501|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|75|41|v|javascript
+	slice
+235db80f2d6b4ebbdd654778f9d35dd7|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|75|46|V|javascript
+	            setState({ data, tableData: statepageSize), count: data.length });
+fe320a49223ea4922304e3ab66f7cf7f|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|46|20|V|javascript
+	    // const sampleEmail = {
+	    //     from: "prabhat@kalysys.com.au",
+	    //     to: '"pandeypravat@gmail.com"',
+	    //     opens: "",
+	    //     clicks: "",
+	    //     delivered: "",
+	    //     bounced: "",
+	    //     recordId: 15169,
+	    //     recordValueId: 93200,
+	    // };
+	    // const data = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26].map((value, i) => ({
+	    //     ...sampleEmail,
+	    //     opens: i,
+	    //     recordValueId: sampleEmail.recordValueId + i,
+	    // }));
+876dcd02f181c65ba5a00de0fdcd514e|file:///home/prabhat/Documents/code/kalysys/client/src/utils/api/axiosInstance.js|27|1|V|javascript
+	        console.log(response.config);
+2245023265ae4cf87d02c8b6ba991139|file:///home/prabhat/Documents/code/kalysys/client/src/utils/api/axiosInstance.js|28|30|v|javascript
+	config
+8f0a690e89913ae50cd54dc987812c88|file:///home/prabhat/Documents/code/kalysys/client/src/utils/api/axiosInstance.js|27|30|V|javascript
+	        console.log(response.config);
+	        console.log(response.headers);
+a7f06bd447c04987ea00cb0c523bcfca|file:///home/prabhat/Documents/code/kalysys/client/src/utils/api/axiosInstance.js|27|14|V|javascript
+	        const 
+95e670d558d87210331c050ee0f95f5f|file:///home/prabhat/Documents/code/kalysys/client/src/utils/api/mailingList.js|151|31|v|javascript
+	emails 
+db7cf6633b58ec868d756c9f53fd7291|file:///home/prabhat/Documents/code/kalysys/client/node_modules/react-query/types/react/useQuery.d.ts|5|166|v|typescript
+	UseQueryOptions
+7673f2c310d9312af963383e6d3f0ca0|file:///home/prabhat/Documents/code/kalysys/client/src/utils/api/mailingList.js|160|1|V|javascript
+	 * @param {UseQueryOptions} queryOptions
+8f9740dbed75c4db6120abf0f06ee34b|file:///home/prabhat/Documents/code/kalysys/server/server/modules/v2/generics/controllers/entry.controller.js|115|21|v|javascript
+	getAnyStandardFormForRecord
+de907c58c691f93a6be31d7cb64c65f3|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivitiesInTable.js|7|1|V|javascript
+	    defaultPaginationState,
+	    getSearchData,
+	    handlePageChange,
+	    handlePageSizeChange,
+	    redirectWithParams,
+444956263c31b2d238afd50c486ddf14|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivities.js|198|1|V|javascript
+	    if (state.error || state.loadMore.error) {
+	        return (
+	            <React.Fragment>
+	                <div className="d-flex align-items-center justify-content-between mb-2">
+	                    <div className="display-7">
+	                        <i className="fas fa-exclamation text-danger mr-2" />
+	                        {term("activities")}
+	                    </div>
+	                </div>
+	                <Card className="animated fadeIn">
+	                    <CardBody className="clean">Error loading further {term("activities", true)}</CardBody>
+	                </Card>
+	            </React.Fragment>
+	        );
+	    }
+ab6bbfb9bb462da4d4ba626d8622bd61|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|74|9|v|javascript
+	state.error || state.loadMore.error
+1318ca6ecdeab70ad75091cd0843406f|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|73|5|V|javascript
+	    }
+	    if () {
+38c9b383e4dc7315b9eced7bd288807c|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivities.js|13|1|V|javascript
+	import term from "utils/TermDictionary";
+1ab1101b28aec69f26ff3cb19b3d7325|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivities.js|6|1|V|javascript
+	import Card, { CardBody } from "components/Card/Card";
+75abd646aa7982eb338fb51b49178384|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|84|63|v|javascript
+	further
+b326b5062b2f0e69046810717534cb09|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|74|9|v|javascript
+	true
+656aa3c437847fc48ed4cadf751602bd|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/Activity.js|126|1|V|javascript
+	            <div className="activity-detail">
+	                <div className="activity-title">
+	                    <div className="activity-record" onClick={() => handleActivityClick(activityData)}>
+	                        {Pluralize.singular(activityData.recordName)}
+	                    </div>
+	                    <div className="activity-time text-muted" id={targetString}>
+	                        {activityData.activityTime} ago
+	                    </div>
+	                    <Tooltip placement="right" isOpen={tooltipOpen} target={targetString} toggle={toggle}>
+	                        {createdAtReadableFormat}
+	                    </Tooltip>
+	                </div>
+	                <div className="activity-desc" onClick={() => handleActivityClick(activityData)}>
+	                    {activityData.activityText}
+	                </div>
+	            </div>
+71e04dc0c0fa400a53993dd669cbbe82|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|92|19|V|javascript
+	        </Fragment>
+49f1468ded2e75fd129475a0d805f84d|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|97|1|V|javascript
+	                    <div className="activity-time text-muted" id={targetString}>
+	                        {activityData.activityTime} ago
+	                    </div>
+	                    <Tooltip placement="right" isOpen={tooltipOpen} target={targetString} toggle={toggle}>
+	                        {createdAtReadableFormat}
+	                    </Tooltip>
+fed367d4d1df09c8298805d61a925759|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|95|45|V|javascript
+	                        {Pluralize.singular(activityData.recordName)}
+a63bbe22c5edefc4590877046baf2f0e|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|94|1|V|javascript
+	                    <div className="activity-record" onClick={() => handleActivityClick(activityData)}>
+	                    </div>
+20fcbc5ab79aff81550ec7bb88054306|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|96|22|V|javascript
+	                    {activityData.activityText}
+48c726a0dfeff4e51d5822b928089656|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|95|1|V|javascript
+	                <div className="activity-desc" onClick={() => handleActivityClick(activityData)}>
+	                </div>
+f960837d59d3367df7a4cbbf0cdf5ee6|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|93|1|V|javascript
+	                <div className="activity-title">
+	
+	                </div>
+1cd632bf0306063d7f1ae87d104fffd8|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|92|1|V|javascript
+	            <div className="activity-detail">
+	            </div>
+26ffb12df81eddb9d1d661160ad31b27|file:///home/prabhat/Documents/code/kalysys/client/src/views/Tools/MailingList/List/SidePanel/SidePanel.js|9|8|V|javascript
+	import DisplayActivitiesLog from "components/DisplayActivitiesLog/";
+faf6a5457ada0d8737afa1c98258d087|file:///home/prabhat/Documents/code/kalysys/client/src/views/Tools/MailingList/List/SidePanel/SidePanel.js|16|1|V|javascript
+	    const activityLogs = useDisplayActivites({
+	        ...props,
+	        recordId: (props.mailingList && props.mailingList.recordId) || null,
+	        entryId: (props.mailingList && props.mailingList.id) || null,
+	    });
+06acfe2e644bd0c04d0acb9018f8e783|file:///home/prabhat/Documents/code/kalysys/client/src/views/Tools/MailingList/List/SidePanel/SidePanel.js|11|1|V|javascript
+	import useDisplayActivites from "components/DisplayActivitiesLog/useDisplayActivities";
+5bfc2cfbd836a500ed31fd6295ab404f|file:///home/prabhat/Documents/code/kalysys/client/src/views/Tools/MailingList/List/SidePanel/SidePanel.js|20|1|V|javascript
+	                        <div>
+	                            <div className="display-7">View {term("mailing-list", false, true)}</div>
+	                        </div>
+fe77ccdebfc01dc5c8a70992121b93fd|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|92|1|V|javascript
+	            <
+773e2ef97d589ebb487b7905419546c9|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|93|44|v|javascript
+	View {term("mailing-list", false, true)}
+3b18ad1df608dec2c7703fad6a5ab8df|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivities.js|43|1|V|javascript
+	    const renderEntryViewPopup = () => {
+	        if (!activeEntry) {
+	            return null;
+	        }
+	        let popupEntry;
+	        if (activeEntry.source === "nested") {
+	            popupEntry = replies[activeEntry.sourceInfo.parentEntryId].repliesEntryInfo[activeEntry.entryId];
+	        } else {
+	            popupEntry = state.relation.entriesInfo[activeEntry.entryId];
+	        }
+	        let popupRecord = state.relation.recordsInfo[activeEntry.recordId];
+	        const canViewFullScreen = state.relation.moduleRecords.includes(popupRecord.recordValueId);
+	
+	        //body of the popup
+	        let body = null;
+	        let isEmailRecord = popupRecord && popupRecord.internalid === "email";
+	        let isBodyLoading = !viewEntry[activeEntry.recordId] || viewEntry[activeEntry.recordId].loading;
+	        if (isBodyLoading) {
+	            body = <InlineLoader />;
+	        } else if (viewEntry[activeEntry.recordId].error) {
+	            body = (
+	                <div className="d-flex align-items-center justify-content-between mb-2">
+	                    <div className="display-7">
+	                        <i className="fas fa-exclamation text-danger mr-2" />
+	                        Cannot display entry
+	                    </div>
+	                </div>
+	            );
+	        } else if (isEmailRecord) {
+	            body = (
+	                <EmailBody
+	                    userEmail={props.roles.employee.email}
+	                    source={activeEntry.source}
+	                    sourceInfo={activeEntry.sourceInfo}
+	                    emailEntryInfo={popupEntry}
+	                    emailRecordInfo={popupRecord}
+	                    changeActiveActivity={handleActivityClick}
+	                    onInternalReplySuccessful={onInternalReplySuccessful}
+	                />
+	            );
+	        } else {
+	            //if successfully loaded data required to view the entry
+	            const viewEntryInfo = viewEntry[activeEntry.recordId];
+	            const form = viewEntryInfo.formsData.find(f => +f.recordValueId === +popupEntry.formId);
+	            const formValues = buildFormValues(popupRecord.fields, form, popupEntry.recordValueId, {}, popupEntry);
+	            body = <DisplayEntry form={form} entry={formValues} fields={popupRecord.fields} />;
+	        }
+	        const cardBodyStyle = {
+	            minHeight: "200px",
+	            ...((isEmailRecord || isBodyLoading) && { border: "none" }),
+	        };
+	        return (
+	            <RightPanel active={activeEntry} toggle={resetActiveEntry}>
+	                <RightPanelHeader toggle={resetActiveEntry}>
+	                    <div className="d-flex align-items-start justify-content-between">
+	                        <div className="display-7">{popupRecord.name}</div>
+	                        {canViewFullScreen && (
+	                            <Button
+	                                color="secondary"
+	                                tag={Link}
+	                                to={`/app/records/${activeEntry.recordId}/view/${activeEntry.entryId}`}
+	                                style={{ whiteSpace: "nowrap" }}
+	                            >
+	                                <i className="fal fa-external-link mr-2" />
+	                                View Fullscreen
+	                            </Button>
+	                        )}
+	                    </div>
+	                </RightPanelHeader>
+	
+	                <RightPanelBody>
+	                    <Card>
+	                        <CardBody style={cardBodyStyle}>{body}</CardBody>
+	                    </Card>
+	                </RightPanelBody>
+	            </RightPanel>
+	        );
+	    };
+172326ab6a6e5aea73e45fccb9301e03|file:///home/prabhat/Documents/code/kalysys/client/src/views/Tools/MailingList/List/SidePanel/SidePanel.js|14|1|V|javascript
+	const SidePanel = props => {
+	    return (
+545d05d9fb0259ed7e94290ee8694cf1|file:///home/prabhat/Documents/code/kalysys/client/src/views/Tools/MailingList/List/SidePanel/SidePanel.js|15|1|V|javascript
+	    const {} = useDisplayActivites();
+bfb3c2594c3cb89e186b8fa2cdfc972a|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivities.js|30|1|V|javascript
+	        resetActiveEntry,
+	        handleActivityClick,
+	        createActivityData,
+	        handleReplyLoadMoreClick,
+	        handleLoadMoreClick,
+	        lightPrimary,
+	        activeEntry,
+	        replies,
+	        state,
+	        viewEntry,
+	        onInternalReplySuccessful,
+76adf0a9d8c9f9181cdb2e4354346d74|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|64|1|V|javascript
+	        createActivityData,
+	        handleReplyLoadMoreClick,
+	        handleLoadMoreClick,
+	        lightPrimary,
+51c45e6b2a1f43b5bcfe8e8406416c2e|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|66|9|V|javascript
+	        state,
+2dd643fb70d9c4e8a06fa2d26b12e6c2|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|75|26|v|javascript
+	activityState
+0abd02088b9363be4f704d94e3b9b26c|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivities.js|7|1|V|javascript
+	import InlineLoader from "components/Loaders/InlineLoader";
+738eb0d2caae9f2417d8bbfd65f822fd|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivities.js|12|1|V|javascript
+	import EmailBody from "./EmailBody";
+68029168a798bac35326d8abfc88f026|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivities.js|9|1|V|javascript
+	import RightPanel, { RightPanelHeader, RightPanelBody } from "components/RightPanel/RightPanel";
+2f3b02012916d2848a6e29348fb39016|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivities.js|5|1|V|javascript
+	import { buildFormValues } from "utils/dataParser";
+33ce36efe1e14dc3a9dc6a8dc365b248|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivities.js|10|1|V|javascript
+	import DisplayEntry from "components/DisplayEntry/DisplayEntry";
+40fb3bfb551b41eda951464f168c4239|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivities.js|8|1|V|javascript
+	import { Button } from "components/ReactstrapWrappers";
+79cbef6453ed797d9c7f0506398f04cb|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivities.js|2|1|V|javascript
+	import { Link } from "react-router-dom";
+90c0bb91da8e589f76f32957bd852988|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|74|11|v|javascript
+	renderEntryViewPopup
+e141c0db30ab77d65eabe564e5556f02|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|70|19|v|javascript
+	(props.mailingList && props.mailingList.recordId) || null,
+23d8c255e1952f689dead6fba5cfc8a3|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|70|33|v|javascript
+	 || null
+595a6a8dcf786b0afb96be427315ab1c|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|71|18|v|javascript
+	(props.mailingList && props.mailingList.id) || null,
+249bca3b1c2d94d99430eedf12904566|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|74|1|V|javascript
+	    //const renderEntryViewPopup = () => {
+e1c2d3318e29a8ec4228e23f4cf77f0b|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|114|17|V|javascript
+	        } else {
+	            //if successfully loaded data required to view the entry
+	            const viewEntryInfo = viewEntry[activeEntry.recordId];
+	            const form = viewEntryInfo.formsData.find(f => +f.recordValueId === +popupEntry.formId);
+	            const formValues = buildFormValues(popupRecord.fields, form, popupEntry.recordValueId, {}, popupEntry);
+	            body = <DisplayEntry form={form} entry={formValues} fields={popupRecord.fields} />;
+	        }
+6345ea94170c2b822571add56348b598|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|102|20|V|javascript
+	        } else if (isEmailRecord) {
+537f9983adc0826de3b223a2c1a02fb5|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|94|1|V|javascript
+	            body = (
+	                <div className="d-flex align-items-center justify-content-between mb-2">
+	                    <div className="display-7">
+	                        <i className="fas fa-exclamation text-danger mr-2" />
+	                        Cannot display entry
+	                    </div>
+	                </div>
+	            );
+1e7d62c0e97432d0e5f8c5107ddf3e91|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|93|13|V|javascript
+	        } else if (viewEntry[activeEntry.recordId].error) {
+45af1e0f530bb0f8ef27ca4c26392cb7|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|75|1|V|javascript
+	        if (!activeEntry) {
+	            return null;
+	        }
+	        let popupEntry;
+	        if (activeEntry.source === "nested") {
+	            popupEntry = replies[activeEntry.sourceInfo.parentEntryId].repliesEntryInfo[activeEntry.entryId];
+	        } else {
+	            popupEntry = activityState.relation.entriesInfo[activeEntry.entryId];
+	        }
+	        let popupRecord = activityState.relation.recordsInfo[activeEntry.recordId];
+	        const canViewFullScreen = activityState.relation.moduleRecords.includes(popupRecord.recordValueId);
+	
+	        //body of the popup
+	        let body = null;
+	        let isEmailRecord = popupRecord && popupRecord.internalid === "email";
+	        let isBodyLoading = !viewEntry[activeEntry.recordId] || viewEntry[activeEntry.recordId].loading;
+7ea18c268f8c5c37977aba8d1c2bfa99|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|75|1|V|javascript
+	        if (isBodyLoading) {
+	            body = <InlineLoader />;
+	        } else if (isEmailRecord) {
+	            body = (
+	                <EmailBody
+	                    userEmail={props.roles.employee.email}
+	                    source={activeEntry.source}
+	                    sourceInfo={activeEntry.sourceInfo}
+	                    emailEntryInfo={popupEntry}
+	                    emailRecordInfo={popupRecord}
+	                    changeActiveActivity={handleActivityClick}
+	                    onInternalReplySuccessful={onInternalReplySuccessful}
+	                />
+	            );
+	        }else{
+	        // } else if (viewEntry[activeEntry.recordId].error) {
+4e1ddba1c31545ee09fb38ae1fd79346|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|83|9|V|javascript
+	        }
+baa5a58979860c7efbfd0ac8653c5f51|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|67|1|V|javascript
+	
+	    const { resetActiveEntry, state: activityState, handleActivityClick, activeEntry, replies, viewEntry, onInternalReplySuccessful } = useDisplayActivites({
+	        ...props,
+	        recordId: props.recordId,
+	        entryId: props.entryId,
+	    });
+c43200f6ea6207edf6dd967409157c7b|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|69|1|V|javascript
+	        if (isBodyLoading) {
+	            body = <InlineLoader />;
+	        } else if (isEmailRecord) {
+e66ac60b8591113866958d6339565b8e|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|80|1|V|javascript
+	        }else{
+	        // } else if (viewEntry[activeEntry.recordId].error) {
+	            body = (
+	                <div className="d-flex align-items-center justify-content-between mb-2">
+	                    <div className="display-7">
+	                        <i className="fas fa-exclamation text-danger mr-2" />
+	                        Cannot display entry
+	                    </div>
+	                </div>
+	            );
+	        }
+a24b771cb7fede66dd2be81ded9be3c4|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|88|53|v|javascript
+	popupRecord.name
+62497505b1741a1b727274b75921e9c4|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|82|35|v|javascript
+	isBodyLoading
+de74705482ae8cd14e3bc969afe15166|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|72|1|V|javascript
+	    //             source={activeEntry.source}
+	    //             sourceInfo={activeEntry.sourceInfo}
+af67ca2fe7ffcec86822126de0ffc4d7|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|62|37|v|javascript
+	emails
+7ac366e371669dfbf0fed5ab8bab9974|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|73|37|v|javascript
+	popupRecord
+3d9820499235b38712bb78a33600a857|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|68|1|V|javascript
+	    // const renderEntryViewPopup = () => {
+	    //     const body = (
+	    //         <EmailBody
+	    //             userEmail={props.roles.employee.email}
+	    //             emailEntryInfo={popupEntry}
+	    //             emailRecordInfo={data.emailRecordInfo}
+	    //             changeActiveActivity={handleActivityClick}
+	    //             onInternalReplySuccessful={onInternalReplySuccessful}
+	    //         />
+	    //     );
+	    //     const cardBodyStyle = {
+	    //         minHeight: "200px",
+	    //         ...(isEmailRecord && { border: "none" }),
+	    //     };
+	    //     return (
+	    //         <RightPanel active={activeEntry} toggle={resetActiveEntry}>
+	    //             <RightPanelHeader toggle={resetActiveEntry}>
+	    //                 <div className="d-flex align-items-start justify-content-between">
+	    //                     <div className="display-7">Email</div>
+	    //                     {canViewFullScreen && (
+	    //                         <Button
+	    //                             color="secondary"
+	    //                             tag={Link}
+	    //                             to={`/app/records/${activeEntry.recordId}/view/${activeEntry.entryId}`}
+	    //                             style={{ whiteSpace: "nowrap" }}
+	    //                         >
+	    //                             <i className="fal fa-external-link mr-2" />
+	    //                             View Fullscreen
+	    //                         </Button>
+	    //                     )}
+	    //                 </div>
+	    //             </RightPanelHeader>
+	
+	    //             <RightPanelBody>
+	    //                 <Card>
+	    //                     <CardBody style={cardBodyStyle}>{body}</CardBody>
+	    //                 </Card>
+	    //             </RightPanelBody>
+	    //         </RightPanel>
+	    //     );
+	    // };
+504c135c282b04e1bdb8dd51c1e26d0e|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|68|1|V|javascript
+	    // const renderEntryViewPopup = () => {
+c59a60d6897a1dbb0c96c9282c877beb|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|166|42|v|javascript
+	console.log(rowInfo);
+57b680a3d8362b99bd22bb967a78f313|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|82|37|v|javascript
+	data.emailRecordInfo
+52d36bba29ff0db85ea3175bab231339|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|81|36|v|javascript
+	popupEntry
+3c2feca2f5ed7863bf97496511a4691c|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|70|36|V|javascript
+	            console.log(`data: `, data);
+cfd4fc351836630106c4816dd8f516ef|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|172|42|v|javascript
+	console.log(rowInfo) 
+86e9ab89336cd0fccc8011123622290d|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|61|1|V|javascript
+	    console.log(`activeEntry: `, activeEntry);
+8b2f0e0534325f8e434049e3501e7854|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|81|14|V|javascript
+	                changeActiveActivity={handleActivityClick}
+b62273767c2616983d8ab94203bc7ed1|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|81|44|V|javascript
+	                onInternalReplySuccessful={onInternalReplySuccessful}
+3d024fb8831566bb95daf961af204d0d|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|80|25|V|javascript
+	            ...(isEmailRecord && { border: "none" }),
+2622aa1ea3ecd6574a114adccd36a3dd|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|82|54|v|javascript
+	resetActiveEntry
+dcc3586e39a89aa0858b792f7495e2cd|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayActivities.js|54|1|V|javascript
+	        const canViewFullScreen = state.relation.moduleRecords.includes(popupRecord.recordValueId);
+21268206d2752054191d03b0bdb36b25|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|90|26|V|javascript
+	                        {canViewFullScreen && (
+	                            <Button
+	                                color="secondary"
+	                                tag={Link}
+	                                to={`/app/records/${activeEntry.recordId}/view/${activeEntry.entryId}`}
+	                                style={{ whiteSpace: "nowrap" }}
+	                            >
+	                                <i className="fal fa-external-link mr-2" />
+	                                View Fullscreen
+	                            </Button>
+	                        )}
+a3ad7305916c66c45f1ff7d46b5e9d11|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|80|22|v|javascript
+	<EmailBody userEmail={props.roles.employee.email} emailEntryInfo={activeEntry} emailRecordInfo={emailRecordInfo} />;
+8e0090fce24dd8f1a1e8358b9467365b|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|95|57|v|javascript
+	{body}
+95e765ceeedc0b5aa0caa0bae87a0615|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|80|1|V|javascript
+	        const body = 
+d0de1366b1fe7c9e659c1fc18f00cc0a|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|80|31|v|javascript
+	{
+	            minHeight: "200px",
+	            border: "none",
+	        }
+07a5567e00b032aa4a7ddbae66164cd6|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|91|42|v|javascript
+	cardBodyStyle
+ca5c39d4af08080d88eafab3b48ea440|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|80|31|V|javascript
+	        const cardBodyStyle = ;
+1c9a3f01cc24c663192c1a716f5ad38a|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|81|1|V|javascript
+	            <RightPanel active={activeEntry} toggle={resetActiveEntry}>
+	                <RightPanelHeader toggle={resetActiveEntry}>
+	                    <div className="d-flex align-items-start justify-content-between">
+	                        <div className="display-7">Email</div>
+	                    </div>
+	                </RightPanelHeader>
+	
+	                <RightPanelBody>
+	                    <Card>
+	                        <CardBody
+	                            style={{
+	                                minHeight: "200px",
+	                                border: "none",
+	                            }}
+	                        >
+	                            <EmailBody userEmail={props.roles.employee.email} emailEntryInfo={activeEntry} emailRecordInfo={emailRecordInfo} />;
+	                        </CardBody>
+	                    </Card>
+	                </RightPanelBody>
+	            </RightPanel>
+a5b8b001c66ff1a38602902b62c6d7ac|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|144|13|V|javascript
+	            {renderEntryViewPopup}
+500dc00a4c6e15c1db17d1de1f1ea6e5|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|79|1|V|javascript
+	    const renderEntryViewPopup = () => {
+	        return (
+	        );
+	    };
+	
+5c55fb848995deb6dde7267421bf6c46|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|111|13|V|javascript
+	            <div>
+e3b6c7818808cf0b9022c774f39d91b5|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|112|13|V|javascript
+	            </div>
+9ac09a13d2a800d6cf2899bf3658034a|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|63|15|v|javascript
+	{ emailRecordInfo },
+4aa516650142bd009ed70b9c8325b213|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|63|36|V|javascript
+	        console.log(`data: `, data);
+4194c3a65f475c1a3a2e103596180f3a|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|148|138|v|javascript
+	emailRecordInfo
+36248b759da55a2dbd9010a43a84eaec|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|148|125|v|javascript
+	(data || {}).emailRecordInfo
+0a98060a1c318f7de267665b1fbceaf6|file:///home/prabhat/Documents/code/kalysys/client/src/views/Tools/MailingList/List/SidePanel/SidePanel.js|67|1|V|javascript
+	                <RightPanelFooter>
+	                    <Container fluid={true}>
+	                        <Row>
+	                            <Col xs={12} sm={6} className="p-0">
+	                                <Button type="submit" color="secondary" className="form-control-sm mb-2-sm" onClick={props.toggle}>
+	                                    <i className="fal fa-times mr-2" />
+	                                    Close
+	                                </Button>
+	                            </Col>
+	                        </Row>
+	                    </Container>
+	                </RightPanelFooter>
+2c81f80e96af8a9b591ace579e72ddba|file:///home/prabhat/Documents/code/kalysys/client/src/views/Tools/MailingList/List/SidePanel/SidePanel.js|10|1|V|javascript
+	import RightPanel, { RightPanelHeader, RightPanelBody, RightPanelFooter } from "components/RightPanel/RightPanel";
+eaf5162b7f861b15e54f6efb808bdfc7|file:///home/prabhat/Documents/code/kalysys/client/src/views/Tools/MailingList/List/SidePanel/SidePanel.js|2|1|V|javascript
+	import { Container, Row, Col } from "reactstrap";
+d3d2e617335f08df83599665eef8a418|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|158|37|v|javascript
+	Close
+0a3144a405b6bd1f16c58063f036a351|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|156|41|v|javascript
+	type="submit" 
+8cfe8e43b2be5b759c238ce69667887e|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|156|104|v|javascript
+	props.toggle
+91065ef9ee5257c2e09787b825f90f15|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|13|8|V|javascript
+	import useDisplayActivites from "./useDisplayActivities";
+f2b798f672d4b42c0359ced11d4f10cd|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|152|58|v|javascript
+	times
+dec72caf2690c82b7668dfd7b4b1e845|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|152|58|v|javascript
+	arrow-left
+1f7ba58706f9d405023da32864d059c8|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|151|48|v|javascript
+	secondary
+577b8e9879d9351a1b6d766fc4a531b5|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|60|16|V|javascript
+	            cons
+9b88a4c14a3d6f884f4d6a14a835ff65|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|45|5|V|javascript
+	    const count = 0;
+e293f1b8cf7d7db2afc0830e990663f5|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|125|28|V|javascript
+	                totalRows={state.count}
+87ac3fc5cc2acb58d1108674fcbddf58|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|59|26|V|javascript
+	            const {emails}
+8d625fbcab0516b7e4741083779e685e|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|60|42|v|javascript
+	[]).
+422e3959f00d502b65bbec97d9dfcb66|file:///home/prabhat/Documents/code/kalysys/client/src/components/DisplayActivitiesLog/DisplayMailingListActivities.js|131|52|v|javascript
+	Mailing list email
+3090494ead705afa719d764ec93a555f|file:///tmp/655511357.md|2|1|V|markdown
+	
+	<!-- Replace this text with a descriptive information on what you did on this PR. -->
+82ff95d1be5dbe9357e309f04f30c647|file:///tmp/655511357.md|5|1|V|markdown
+	
+	<!-- Replace this text with link to documentation, or add any crucial information about your task. -->
+563e4aea6d9b3f032c68eb2d089ae7f0|file:///tmp/655511357.md|8|1|V|markdown
+	
+	<!-- Add any screenshots/recordings. -->
+23998a23d08b358d98c241973e1fdd74|file:///tmp/655511357.md|10|1|V|markdown
+	
+	<!-- Are there any PRs this PR is linked with? -->
+bf006b4c6b277cf920279970d7e3c5f3|file:///tmp/655511357.md|9|1|V|markdown
+	## Related PRs
+427d9be111dc5590796b90284a8ef7b4|file:///home/prabhat/Documents/code/kalysys/server/server/modules/handlers/campaign/handler.js|2|7|V|javascript
+	const _ = require("lodash");
+6afbfe3cd3e716190f8d2f26fbb84842|file:///home/prabhat/Documents/code/kalysys/server/server/modules/handlers/campaign/handler.js|558|1|V|javascript
+	        // const requiredFieldsInTable = [
+	        //     "from",
+	        //     "to",
+	        //     "opens",
+	        //     "clicks",
+	        //     "delivered",
+	        //     "bounced",
+	        //     "recordId",
+	        //     "recordValueId",
+	        // ];
+	        // let returnData = [];
+	        // entries.map(entry => {
+	        //     let returnEmailEntry = {};
+	        //     requiredFieldsInTable.map(field => {
+	        //         let value = _.get(entry, field, "");
+	        //         // try {
+	        //         //     if (field === "to") {
+	        //         //         value = JSON.parse(value);
+	        //         //     }
+	        //         // } catch {}
+	        //         returnEmailEntry[field] = value;
+	        //     });
+	        //     returnData.push(returnEmailEntry);
+	        // });
+361fba6bc393d6b20ffb745d86414653|file:///tmp/655511357.md|12|1|V|markdown
+	
+	<!-- Add extra info like if you added a new package, add what it does and how heavy the package is. -->
+6b7e940247595302d7fabe69874ce3f9|file:///tmp/655511357.md|10|1|V|markdown
+	
+	## Any additional information on the task?
+94b86feed7e547b77e19e819be1073ff|file:///tmp/439039550.md|13|15|V|markdown
+	<!-- Are there any PRs this PR is linked with? -->
+	
+593ca9dff020f6661de686b7e089724f|file:///tmp/439039550.md|8|15|V|markdown
+	<!-- Replace this text with link to documentation, or add any crucial information about your task. -->
+	
+8edf214dbc19eb98d0e16ded5d1e52f2|file:///tmp/439039550.md|10|1|V|markdown
+	## Any additional information on the task?
+	
+	<!-- Add extra info like if you added a new package, add what it does and how heavy the package is. -->
