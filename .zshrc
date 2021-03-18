@@ -13,7 +13,9 @@ autoload -Uz compinit
 compinit
 # --------------------------------------------------------
 # zsh-z
-source "$HOME/shell/zsh-z/zsh-z.plugin.zsh"
+if [ -f ~/shell/zsh-z/zsh-z.plugin.zsh ]; then
+    source "$HOME/shell/zsh-z/zsh-z.plugin.zsh"
+fi
 zstyle ':completion:*' menu select
 # --------------------------------------------------------
 # nvm
@@ -58,6 +60,15 @@ take () {
 # g:python3_host_prog = 1
 # --------------------------------------------------------
 # alias and exports
-source "$HOME/shell/exports.zsh"
-source "$HOME/.secret_exports.zsh"
-source "$HOME/shell/alias.zsh"
+if [ -f ~/shell/exports.zsh ]; then
+    source "$HOME/shell/exports.zsh"
+fi
+if [ -f ~/shell/alias.zsh ]; then
+    source "$HOME/shell/alias.zsh"
+fi
+if [ -f ~/.secret_exports.zsh ]; then
+    source "$HOME/.secret_exports.zsh"
+fi
+if [ -f ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
+    source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+fi
