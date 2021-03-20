@@ -48,7 +48,7 @@ export LESS_TERMCAP_so=$'\e[47;30m'
 export LESSPROMPT='?f%f .?ltLine %lt:?pt%pt\%:?btByte %bt:-...'
 
 # completion
-setopt CORRECT
+# setopt CORRECT
 setopt NO_NOMATCH
 setopt LIST_PACKED
 setopt ALWAYS_TO_END
@@ -121,9 +121,9 @@ bindkey -- '^K'   up-line-or-beginning-search
 bindkey -- '^J'   down-line-or-beginning-search
 
 # correction
-zstyle ':completion:*:correct:*' original true
-zstyle ':completion:*:correct:*' insert-unambiguous true
-zstyle ':completion:*:approximate:*' max-errors 'reply=($(( ($#PREFIX + $#SUFFIX) / 3 )) numeric)'
+# zstyle ':completion:*:correct:*' original true
+# zstyle ':completion:*:correct:*' insert-unambiguous true
+# zstyle ':completion:*:approximate:*' max-errors 'reply=($(( ($#PREFIX + $#SUFFIX) / 3 )) numeric)'
 
 # completion
 zstyle ':completion:*' use-cache on
