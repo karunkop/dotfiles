@@ -153,7 +153,7 @@ autocmd TextChanged * call gitgutter#process_buffer(bufnr(''), 0)
 
 " Coc config
 " node path
-let g:coc_node_path = '/home/prabhat/.nvm/versions/node/v10.16.3/bin/node'
+let g:coc_node_path = '~/.config/nvm/versions/node/v10.16.3/bin/node'
 " Highlight the symbol and its references when holding the cursor.
 autocmd CursorHold * silent call CocActionAsync('highlight')
 
